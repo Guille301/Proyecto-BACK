@@ -1,0 +1,5953 @@
+﻿***********************************
+Archivo: 20241020213646_testo.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Migrations\20241020213646_testo.cs
+***********************************
+using System;
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace Libreria.Acceso.Datos.Migrations
+{
+    /// <inheritdoc />
+    public partial class testo : Migration
+    {
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.CreateTable(
+                name: "Disciplina",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    AnoDeIntegracion = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Disciplina", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Paises",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    CantHabitantes = table.Column<int>(type: "int", nullable: false),
+                    TelefonoContacto = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Paises", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Rol = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Contraseña = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FechaCreacion = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CreadoPor = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Eventos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DisciplinaId = table.Column<int>(type: "int", nullable: false),
+                    NombreDePrueba = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    FechaDeInicio = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    FechaDeFin = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Eventos", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Eventos_Disciplina_DisciplinaId",
+                        column: x => x.DisciplinaId,
+                        principalTable: "Disciplina",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Atletas",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Apellido = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Sexo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PaisId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Atletas", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Atletas_Paises_PaisId",
+                        column: x => x.PaisId,
+                        principalTable: "Paises",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "AtletaDisciplina",
+                columns: table => new
+                {
+                    AtletasId = table.Column<int>(type: "int", nullable: false),
+                    DisciplinasId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AtletaDisciplina", x => new { x.AtletasId, x.DisciplinasId });
+                    table.ForeignKey(
+                        name: "FK_AtletaDisciplina_Atletas_AtletasId",
+                        column: x => x.AtletasId,
+                        principalTable: "Atletas",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_AtletaDisciplina_Disciplina_DisciplinasId",
+                        column: x => x.DisciplinasId,
+                        principalTable: "Disciplina",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "PuntajesAtletas",
+                columns: table => new
+                {
+                    EventoId = table.Column<int>(type: "int", nullable: false),
+                    AtletaId = table.Column<int>(type: "int", nullable: false),
+                    PuntosAtletas = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_PuntajesAtletas", x => new { x.EventoId, x.AtletaId });
+                    table.ForeignKey(
+                        name: "FK_PuntajesAtletas_Atletas_AtletaId",
+                        column: x => x.AtletaId,
+                        principalTable: "Atletas",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_PuntajesAtletas_Eventos_EventoId",
+                        column: x => x.EventoId,
+                        principalTable: "Eventos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AtletaDisciplina_DisciplinasId",
+                table: "AtletaDisciplina",
+                column: "DisciplinasId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Atletas_PaisId",
+                table: "Atletas",
+                column: "PaisId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Disciplina_Nombre",
+                table: "Disciplina",
+                column: "Nombre",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Eventos_DisciplinaId",
+                table: "Eventos",
+                column: "DisciplinaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Eventos_NombreDePrueba",
+                table: "Eventos",
+                column: "NombreDePrueba",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_PuntajesAtletas_AtletaId",
+                table: "PuntajesAtletas",
+                column: "AtletaId");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropTable(
+                name: "AtletaDisciplina");
+
+            migrationBuilder.DropTable(
+                name: "PuntajesAtletas");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
+
+            migrationBuilder.DropTable(
+                name: "Atletas");
+
+            migrationBuilder.DropTable(
+                name: "Eventos");
+
+            migrationBuilder.DropTable(
+                name: "Paises");
+
+            migrationBuilder.DropTable(
+                name: "Disciplina");
+        }
+    }
+}
+
+***********************************
+Archivo: 20241020213646_testo.Designer.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Migrations\20241020213646_testo.Designer.cs
+***********************************
+// <auto-generated />
+using System;
+using Libreria.Acceso.Datos.Repositorio.EF;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+
+#nullable disable
+
+namespace Libreria.Acceso.Datos.Migrations
+{
+    [DbContext(typeof(LibreriaContext))]
+    [Migration("20241020213646_testo")]
+    partial class testo
+    {
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        {
+#pragma warning disable 612, 618
+            modelBuilder
+                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("AtletaDisciplina", b =>
+                {
+                    b.Property<int>("AtletasId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DisciplinasId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AtletasId", "DisciplinasId");
+
+                    b.HasIndex("DisciplinasId");
+
+                    b.ToTable("AtletaDisciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Atleta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Apellido")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PaisId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Sexo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PaisId");
+
+                    b.ToTable("Atletas");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Disciplina", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AnoDeIntegracion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.ToTable("Disciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DisciplinaId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaDeFin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaDeInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NombreDePrueba")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DisciplinaId");
+
+                    b.HasIndex("NombreDePrueba")
+                        .IsUnique();
+
+                    b.ToTable("Eventos");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Pais", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CantHabitantes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TelefonoContacto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Paises");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.PuntajeAtleta", b =>
+                {
+                    b.Property<int>("EventoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AtletaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PuntosAtletas")
+                        .HasColumnType("int");
+
+                    b.HasKey("EventoId", "AtletaId");
+
+                    b.HasIndex("AtletaId");
+
+                    b.ToTable("PuntajesAtletas");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Contraseña")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CreadoPor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Rol")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("AtletaDisciplina", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Atleta", null)
+                        .WithMany()
+                        .HasForeignKey("AtletasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Disciplina", null)
+                        .WithMany()
+                        .HasForeignKey("DisciplinasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Atleta", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Pais", "Pais")
+                        .WithMany()
+                        .HasForeignKey("PaisId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pais");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Disciplina", "Disciplina")
+                        .WithMany()
+                        .HasForeignKey("DisciplinaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Disciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.PuntajeAtleta", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Atleta", "Atleta")
+                        .WithMany()
+                        .HasForeignKey("AtletaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Evento", "Evento")
+                        .WithMany("AtletasParticipantes")
+                        .HasForeignKey("EventoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Atleta");
+
+                    b.Navigation("Evento");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.Navigation("AtletasParticipantes");
+                });
+#pragma warning restore 612, 618
+        }
+    }
+}
+
+***********************************
+Archivo: LibreriaContextModelSnapshot.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Migrations\LibreriaContextModelSnapshot.cs
+***********************************
+// <auto-generated />
+using System;
+using Libreria.Acceso.Datos.Repositorio.EF;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+
+#nullable disable
+
+namespace Libreria.Acceso.Datos.Migrations
+{
+    [DbContext(typeof(LibreriaContext))]
+    partial class LibreriaContextModelSnapshot : ModelSnapshot
+    {
+        protected override void BuildModel(ModelBuilder modelBuilder)
+        {
+#pragma warning disable 612, 618
+            modelBuilder
+                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("AtletaDisciplina", b =>
+                {
+                    b.Property<int>("AtletasId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DisciplinasId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AtletasId", "DisciplinasId");
+
+                    b.HasIndex("DisciplinasId");
+
+                    b.ToTable("AtletaDisciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Atleta", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Apellido")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PaisId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Sexo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PaisId");
+
+                    b.ToTable("Atletas");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Disciplina", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("AnoDeIntegracion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Nombre")
+                        .IsUnique();
+
+                    b.ToTable("Disciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DisciplinaId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaDeFin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaDeInicio")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("NombreDePrueba")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DisciplinaId");
+
+                    b.HasIndex("NombreDePrueba")
+                        .IsUnique();
+
+                    b.ToTable("Eventos");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Pais", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CantHabitantes")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("TelefonoContacto")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Paises");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.PuntajeAtleta", b =>
+                {
+                    b.Property<int>("EventoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AtletaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PuntosAtletas")
+                        .HasColumnType("int");
+
+                    b.HasKey("EventoId", "AtletaId");
+
+                    b.HasIndex("AtletaId");
+
+                    b.ToTable("PuntajesAtletas");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Contraseña")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CreadoPor")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Rol")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("AtletaDisciplina", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Atleta", null)
+                        .WithMany()
+                        .HasForeignKey("AtletasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Disciplina", null)
+                        .WithMany()
+                        .HasForeignKey("DisciplinasId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Atleta", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Pais", "Pais")
+                        .WithMany()
+                        .HasForeignKey("PaisId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Pais");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Disciplina", "Disciplina")
+                        .WithMany()
+                        .HasForeignKey("DisciplinaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Disciplina");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.PuntajeAtleta", b =>
+                {
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Atleta", "Atleta")
+                        .WithMany()
+                        .HasForeignKey("AtletaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Libreria.LogicaNegocio.Entidades.Evento", "Evento")
+                        .WithMany("AtletasParticipantes")
+                        .HasForeignKey("EventoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Atleta");
+
+                    b.Navigation("Evento");
+                });
+
+            modelBuilder.Entity("Libreria.LogicaNegocio.Entidades.Evento", b =>
+                {
+                    b.Navigation("AtletasParticipantes");
+                });
+#pragma warning restore 612, 618
+        }
+    }
+}
+
+***********************************
+Archivo: Atleta.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\Atleta.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.Entidades
+{
+    public class Atleta
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+        public string Sexo { get; set; }
+        public Pais Pais { get; set; }
+
+        public List<Disciplina> Disciplinas { get; set; }
+
+        public Atleta()
+        {
+            Disciplinas = new List<Disciplina>(); 
+        }
+
+        public Atleta(string nombre, string apellido, string sexo, Pais pais)
+        {
+            Nombre = nombre;
+            Apellido = apellido;
+            Sexo = sexo;
+            Pais = pais;
+            Disciplinas = new List<Disciplina>(); 
+        }
+
+        // Método para agregar
+        public void AsignarDisciplina(Disciplina d)
+        {
+            Disciplinas.Add(d);
+        }
+
+        // Obtener lista
+        public List<Disciplina> GetAsignarDisciplina()
+        {
+            return Disciplinas;
+        }
+    }
+
+}
+
+***********************************
+Archivo: Disciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\Disciplina.cs
+***********************************
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Mail;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.Entidades
+{
+    [Index(nameof(Nombre), IsUnique = true)]
+    public class Disciplina
+    {
+        public string Nombre { get; set; }
+        public int Id { get; set; }
+        public DateTime AnoDeIntegracion { get; set; }
+
+        public List<Atleta> Atletas { get; set; }
+
+
+        public Disciplina() { }
+
+        public Disciplina(string nombre, DateTime anoDeIntegracion, List<Atleta> atletas)
+        {
+            Nombre = nombre;
+            AnoDeIntegracion = anoDeIntegracion;
+            Atletas = atletas;
+        }
+
+        public Disciplina(string nombre, DateTime anoDeIntegracion)
+        {
+            Nombre = nombre;
+            AnoDeIntegracion = anoDeIntegracion;
+        }
+
+    public bool esValido()
+    {
+    if (this.Nombre.Length > 10 && this.Nombre.Length < 50)
+    {
+        if (AnoDeIntegracion.Year < DateTime.Now.Year)
+        {
+            return true;
+        }
+        else
+        {
+            throw new Exception("El año de integración debe ser anterior al año actual.");
+        }
+    }
+    else
+    {
+        throw new Exception("El nombre de la disciplina debe tener entre 10 y 50 caracteres.");
+    }
+}
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: Evento.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\Evento.cs
+***********************************
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Libreria.LogicaNegocio.Entidades
+{
+    [Index(nameof(NombreDePrueba), IsUnique = true)]
+    public class Evento
+    {
+        public int Id { get; set; }
+
+        public Disciplina Disciplina { get; set; }
+        public string NombreDePrueba { get; set; }
+        public DateTime FechaDeInicio { get; set; }
+        public DateTime FechaDeFin { get; set; }
+   public List<PuntajeAtleta> AtletasParticipantes { get; set; }
+
+    
+        public Evento(Disciplina disciplina, string nombreDePrueba, DateTime fechaDeInicio, DateTime fechaDeFin, List<PuntajeAtleta> atletasP)
+        {
+            Disciplina = disciplina;
+            NombreDePrueba = nombreDePrueba;
+            FechaDeInicio = fechaDeInicio;
+            FechaDeFin = fechaDeFin;
+            AtletasParticipantes = atletasP;
+        }
+
+
+        public Evento(Disciplina disciplina, int id)
+        {
+
+        }
+
+        public Evento() { }
+
+
+    }
+}
+
+***********************************
+Archivo: Pais.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\Pais.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.Entidades
+{
+    public class Pais
+    {
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public int CantHabitantes { get; set; }
+        public string TelefonoContacto { get; set; }
+
+        public Pais()
+        {
+
+        }
+
+        public Pais(string nombre, int cantHabitantes, string telefonoContacto)
+        {
+            Nombre = nombre;
+            CantHabitantes = cantHabitantes;
+            TelefonoContacto = telefonoContacto;
+        }
+    }
+}
+
+***********************************
+Archivo: PuntajeAtleta.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\PuntajeAtleta.cs
+***********************************
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.Entidades{
+[PrimaryKey(nameof(EventoId), nameof(AtletaId))]
+
+    public class PuntajeAtleta
+    {
+  
+
+        public int PuntosAtletas { get; set; }
+        [ForeignKey(nameof(Evento))]
+        public int EventoId { get; set; }
+        [ForeignKey(nameof(Atleta))]
+        public int AtletaId { get; set; }
+        public  Evento  Evento { get; set; }
+        public Atleta  Atleta{ get; set; }
+
+
+      public  PuntajeAtleta()
+      {
+
+      }
+
+        public PuntajeAtleta(int puntosAtletas)
+        {
+            PuntosAtletas = puntosAtletas;
+        }
+    }
+}
+
+***********************************
+Archivo: Usuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\Entidades\Usuario.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.Entidades
+{
+    public class Usuario
+    {
+        public Usuario()
+        {
+
+        }
+        public Usuario(string email, string contraseña, string rol)
+        {
+            Email = email;
+            Contraseña = contraseña;
+            Rol = rol;
+            FechaCreacion = DateTime.Now; // Se asigna automáticamente al crearse
+            Validar();
+        }
+
+        public Usuario(int id, string email, string contraseña, string rol)
+        {
+            Id = id;
+            Email = email;
+            Contraseña = contraseña;
+            Rol = rol;
+            FechaCreacion = DateTime.Now; // Se asigna automáticamente al crearse
+            Validar();
+        }
+
+        public int Id { get; set; }
+        public string Email { get; set; }
+        public string Rol { get; set; }
+        public string Contraseña { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public int CreadoPor { get; set; }
+
+
+        public void Validar()
+        {
+
+            ValidarEmail(Email);
+            ValidarPassword(Contraseña);
+            ValidarRol(Rol);
+        }
+        public void ValidarPassword(string password)
+        {
+            if (string.IsNullOrEmpty(password.Trim()))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El password no puede ser vacío");
+            }
+
+            if (password.Length < 6)
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("Largo de la password insuficiente");
+            }
+
+            if (!password.Any(char.IsUpper))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El password debe contener al menos una letra mayúscula");
+            }
+
+            if (!password.Any(char.IsLower))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El password debe contener al menos una letra minúscula");
+            }
+
+            if (!password.Any(char.IsDigit))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El password debe contener al menos un dígito");
+            }
+
+            if (!password.Any(c => ".;,!".Contains(c)))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El password debe contener al menos un carácter de puntuación (. , ; !)");
+            }
+        }
+        public void ValidarEmail(string email)
+        {
+            if (string.IsNullOrEmpty(email.Trim()))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El email no puede ser vacío");
+            }
+
+            email = email.Trim().ToLower();
+
+            if (!email.EndsWith("@gmail.com"))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El email debe terminar en @gmail.com");
+            }
+        }
+        public void ValidarRol(string rol)
+        {
+
+            if (string.IsNullOrEmpty(rol.Trim()))
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El rol no puede ser vacío");
+            }
+            if (rol != "Administrador"
+                && rol != "Digitador")
+            {
+                throw new ExcepcionesPersonalizadas.Usuarios.UsuarioException("El rol no es válido");
+            }
+        }
+
+    }
+}
+
+***********************************
+Archivo: IEntity.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesEntidades\IEntity.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesEntidades
+{
+    internal interface IEntity
+    {
+    }
+}
+
+***********************************
+Archivo: IRepositorio.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorio.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorio<T>
+    {
+        public void Add(T objeto);
+        public T FindById(int id);
+        public void Delete(int id);
+        public void Update(T objeto);
+        public IEnumerable<T> FindAll();
+        public IEnumerable<T> FindAllOrdenado();
+
+
+    }
+}
+
+***********************************
+Archivo: IRepositorioAtleta.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioAtleta.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioAtleta : IRepositorio<Atleta>
+    {
+
+
+        public void Delete(int id);
+
+        public void Add(Atleta atletas);
+        void AsignarDis(int idA, int idD);
+
+        public List<Atleta> FindAllWithDisciplinas();
+
+        public bool AtletaTieneEsaDisciplina(int idAtleta, int idDisciplina);
+
+    }
+}
+
+***********************************
+Archivo: IRepositorioAtletasParticipantes.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioAtletasParticipantes.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioAtletasParticipantes : IRepositorio<PuntajeAtleta>
+    {
+
+        public PuntajeAtleta FindByIdEspecifico(int eventoId, int atletaId);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IRepositorioDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioDisciplina.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioDisciplina : IRepositorio<Disciplina>
+    {
+        public void Delete(int id);
+
+        public void Add(Disciplina disciplina);
+
+        public IEnumerable<Disciplina> FindAllOrdenado();
+
+    }
+}
+
+***********************************
+Archivo: IRepositorioEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioEventos.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioEvento : IRepositorio<Evento>
+    {
+        public IEnumerable<PuntajeAtleta> FindAtletasDelEvento(int idEvento);
+        public IEnumerable<Evento> FindAllByAtletaId(int id);
+
+        //IEnumerable<LogicaNegocio.Entidades.Evento> EjecutarListarEventosPorAtleta(int id);
+
+        public PuntajeAtleta RegistroPuntaje(PuntajeAtleta PuntajeNuevo);
+        public bool FindByNombre(string nombreEvento);
+        public List<Evento> FindAllByDate(DateTime fecha);
+    }
+}
+
+***********************************
+Archivo: IRepositorioPais.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioPais.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioPais : IRepositorio<Pais>
+    {
+    }
+}
+
+***********************************
+Archivo: IRepositorioUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\InterfacesRepositorios\IRepositorioUsuario.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.InterfacesRepositorios
+{
+    public interface IRepositorioUsuario : IRepositorio<Usuario>
+    {
+
+        public IEnumerable<Usuario> FindByRol(string rol);
+        public Usuario Login(string email, string password);
+        public Usuario FindByEmail(string email);
+
+        public void Delete(int id);
+
+        public void Add(Usuario usuario);
+
+
+    }
+}
+
+***********************************
+Archivo: APIeventoController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\APIeventoController.cs
+***********************************
+using Compartido.DTOS.Evento;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Atletas;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Evento;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using Libreria.LogicaAplicacion.InterfacesCU.EventoInterface;
+using Libreria.LogicaNegocio.Entidades;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp;
+
+namespace Obligatorio.Controllers
+{
+    [ApiController]
+    [Route("eventoapi")]
+
+    public class APIeventoController : ControllerBase
+    {
+        private IObtenerEventos _obtenerEvento;
+        private IBuscarAtletas _buscarAtleta;
+
+        public APIeventoController(IObtenerEventos obtenerEvento, IBuscarAtletas buscarAtleta)
+        {
+            _obtenerEvento = obtenerEvento;
+            _buscarAtleta = buscarAtleta;
+        }
+
+        [HttpGet]
+        [Route("listar")]
+        //API / RF5
+        public ActionResult<List<EventoDto>> ListarEventosPorAtleta(int id)
+        {
+            try
+            {
+                var eventos = _obtenerEvento.EjecutarListarEventosPorAtleta(id);
+
+                // Si no hay eventos, puedes devolver NotFound o simplemente una lista vacía
+                if (!eventos.Any())
+                {
+                    return NotFound("No se encontraron eventos para el atleta.");
+                }
+                // Mapear eventos a DTO
+                var eventoDtos = eventos.Select(e => new EventoDto
+                {
+                    
+                    Id = e.Id,
+                    NombreDePrueba = e.NombreDePrueba,
+                    disciplina = e.Disciplina,
+                    atleta = e.AtletasParticipantes.Select(ap => _buscarAtleta.Ejecutar(ap.AtletaId))
+                                                   .Where(a => a != null).ToList(),
+                    FechaDeInicio = e.FechaDeInicio,
+                    FechaDeFin = e.FechaDeFin
+                }).ToList();
+
+                return Ok(eventoDtos);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error del servidor: {ex.Message}");
+            }
+
+        
+        }
+    }
+}
+
+***********************************
+Archivo: AtletaController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\AtletaController.cs
+***********************************
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador;
+using Libreria.LogicaNegocio.Entidades;
+using Compartido.DTOS.Atleta;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Atletas;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina;
+using Compartido.DTOS.Disciplina;
+using Microsoft.EntityFrameworkCore;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas;
+
+namespace Obligatorio.Controllers
+{
+    public class AtletaController : Controller
+    {
+
+
+
+        private IObtenerAtletas _obtenerAtletas;
+        private IObtenerDisciplina _obtenerDisciplina;
+        private IBuscarAtletas _buscarAtleta;
+        private IBuscarDisciplina _buscarDisciplina;
+        private IAsignarDisciplina _asignarDisciplina;
+
+
+        public AtletaController( IObtenerAtletas obtenerAtletas, IObtenerDisciplina obtenerDisciplina, IBuscarAtletas buscarAtleta, IBuscarDisciplina buscarDisciplina,
+                                 IAsignarDisciplina asignarDisciplina)
+        {
+            
+
+            _obtenerAtletas = obtenerAtletas;
+            _obtenerDisciplina = obtenerDisciplina;
+            _buscarAtleta = buscarAtleta;
+            _buscarDisciplina = buscarDisciplina;
+            _asignarDisciplina = asignarDisciplina;
+
+        }
+
+        /***********************************************************************************************/
+        /***************************************** DIGITADOR *****************************************/
+        /***********************************************************************************************/
+
+
+
+        public ActionResult ListarAtletas()
+        {
+            if (HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                if (TempData.ContainsKey("Mensaje"))
+                {
+                    ViewBag.Mensaje = TempData["Mensaje"];
+                }
+                var atletaDto = _obtenerAtletas.EjecutarOrdenado();
+                return View(atletaDto);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+        }
+
+
+        /*Asignar disciplina*/
+        [HttpGet]
+        public IActionResult AsignarDisciplina(int idAtleta)
+        {
+            if (HttpContext.Session.GetString("rol") == "Digitador")
+            {
+
+                ViewBag.IdAtleta = idAtleta;
+                var DisciplinaDto = _obtenerDisciplina.Ejecutar();
+
+                ViewBag.DisciplinasSelect = DisciplinaDto;
+
+                return View(DisciplinaDto);
+
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
+        }
+
+     
+
+        [HttpPost]
+        public IActionResult AsignarDisciplina(int idAtleta, int idV)
+        {
+            try
+            {
+                _asignarDisciplina.Ejecutar(idAtleta, idV);
+
+                ViewBag.msg = "Alta realizada";
+                return RedirectToAction("ListarAtletas", "Atleta");
+            }
+            catch (DisciplinaYaAsignadaException ex)
+            {
+                ViewBag.msg = ex.Message; 
+            }
+            catch (Exception ex)
+            {
+                ViewBag.msg = "Error: " + ex.Message;
+            }
+            ViewBag.IdAtleta = idAtleta; 
+
+            var DisciplinaDto = _obtenerDisciplina.Ejecutar();
+            ViewBag.DisciplinasSelect = DisciplinaDto;
+
+            return View(); 
+        }
+
+
+
+
+
+
+
+
+
+
+        // GET: AtletaController
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        // GET: AtletaController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: AtletaController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: AtletaController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+        }
+
+        // GET: AtletaController/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: AtletaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+        }
+
+        // GET: AtletaController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: AtletaController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+        }
+    }
+}
+
+***********************************
+Archivo: DisciplinaController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\DisciplinaController.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using Compartido.DTOS.Disciplina;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Atletas;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas;
+
+namespace Obligatorio.Controllers
+{
+    public class DisciplinaController : Controller
+    {
+
+
+
+        private IAltaDisciplina _altaDisciplina;
+        private IObtenerDisciplina _obtenerDisciplina;
+        private IBuscarDisciplina _buscarDisciplina;
+
+        //Constructor
+        public DisciplinaController(IAltaDisciplina altaDisciplina, IObtenerDisciplina obtenerDisciplina, IBuscarDisciplina buscarDisciplina)
+        {
+            _altaDisciplina = altaDisciplina;
+            _obtenerDisciplina = obtenerDisciplina;
+            _buscarDisciplina = buscarDisciplina;
+
+
+
+        }
+
+
+
+
+        // GET: DisciplinaController
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        // GET: DisciplinaController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        public ActionResult ListarDisciplinas()
+        {
+            try
+            {
+                if (HttpContext.Session.GetString("rol") == "Digitador")
+                {
+                    if (TempData.ContainsKey("Mensaje"))
+                    {
+                        ViewBag.Mensaje = TempData["Mensaje"];
+                    }
+                    var DisciplinaDto = _obtenerDisciplina.Ejecutar();
+                    
+                    return View(DisciplinaDto);
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+            }
+            catch (NoHayDisciplinas ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+
+
+        }
+
+
+
+
+        // GET: UsuarioController/Create
+        public ActionResult Create()
+        {
+            if (HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+
+
+        // POST: UsuarioController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(DisciplinaAltaDto DisciplinaDTO)
+        {
+
+            try
+            {
+                //Poner indidce unique para validar no se repite 
+                _altaDisciplina.Ejecutar(DisciplinaDTO);
+                
+                TempData["Mensaje"] = "Disciplina creada correctamente";
+                return RedirectToAction("Index", "Home");
+
+            }
+
+            
+            catch (Exception ex)
+            {
+                ViewBag.Error = ex.Message;
+                return View();
+            }
+
+
+
+
+
+
+        }
+
+        // GET: DisciplinaController/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: DisciplinaController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: DisciplinaController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: DisciplinaController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}
+
+***********************************
+Archivo: EventoController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\EventoController.cs
+***********************************
+using Compartido.DTOS.Evento;
+using Compartido.DTOS.PuntajeAtleta;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Evento;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasParticipantesInterface;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using Libreria.LogicaAplicacion.InterfacesCU.EventoInterface;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Obligatorio.Controllers
+{
+    public class EventoController : Controller
+    {
+
+
+
+        private IAltaEvento _altaEvento;
+        private IObtenerEventos _obtenerEventos;
+        private IAtletasDeLosEventos _atletaDeLosEventos;
+        private IBuscarAtletaEnEvento _buscarAtletaEnEvento;
+        private IRegistrarPuntaje _registrarPuntaje;
+
+        //Constructor
+        public EventoController(IAltaEvento altaEvento, IObtenerEventos obtenerEventos, IAtletasDeLosEventos atletaEvento, 
+                                IBuscarAtletaEnEvento buscarAtletaEnEvento, IRegistrarPuntaje regPuntaje )
+        {
+            _obtenerEventos = obtenerEventos;
+            _altaEvento = altaEvento;
+            _atletaDeLosEventos = atletaEvento;
+            _buscarAtletaEnEvento = buscarAtletaEnEvento;
+            _registrarPuntaje = regPuntaje;
+        }
+
+
+
+
+
+        // GET: EventoController
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        // GET: EventoController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+
+        public IActionResult FiltrarPorFecha()
+        {
+
+            if (HttpContext.Session.GetString("rol") == "Administrador" || HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                return View();
+
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            
+        }
+        [HttpPost]
+        public IActionResult FiltrarPorFecha(DateTime FechaDeInicio)
+        {
+            return RedirectToAction("ListarEventos", "Evento", new { laFecha = FechaDeInicio });
+        }
+
+
+
+
+        
+        public ActionResult ListarEventos(DateTime laFecha)
+        {
+            if (HttpContext.Session.GetString("rol") == "Administrador" || HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                if (TempData.ContainsKey("Mensaje"))
+            {
+                ViewBag.Mensaje = TempData["Mensaje"];
+            }
+            var ListarEvento = _obtenerEventos.EjecutarListarEventos(laFecha);
+
+            return View(ListarEvento);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
+        
+        }
+
+
+    public ActionResult ListarAtletasDelEvento(int idEvento)
+        {
+
+            if (HttpContext.Session.GetString("rol") == "Administrador" || HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                try
+                {
+                var atletas = _atletaDeLosEventos.EjecutarListarAtletasDeLosEventos(idEvento);
+
+                // Pasar idEvento a la vista usando ViewBag
+                ViewBag.IdEvento = idEvento;
+
+                    return View(atletas);
+                }
+                    catch (Exception ex)
+                {
+                    return View("Error", ex);
+                }
+
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            
+        }
+
+
+
+        public ActionResult Puntaje(int idAtleta, int idEvento)
+        {
+            if (HttpContext.Session.GetString("rol") == "Administrador" || HttpContext.Session.GetString("rol") == "Digitador")
+            {
+                try
+                {
+                    // Buscar el atleta participante usando idAtleta e idEvento
+                    ListarAtletasDeLosEventosDto atletaParticipante = _buscarAtletaEnEvento.Ejecutar(idAtleta, idEvento);
+
+                    // Verificar si el objeto es nulo
+                    if (atletaParticipante == null)
+                    {
+                        throw new Exception("Atleta no encontrado.");
+                    }
+
+                    // Devolver el atleta encontrado a la vista para mostrar y modificar el puntaje
+                    return View(atletaParticipante);
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View("Error");
+                }
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public ActionResult Puntaje(ListarAtletasDeLosEventosDto atletaEvento)
+        {
+
+            try
+            {
+
+                _registrarPuntaje.Ejecutar(atletaEvento);
+                return RedirectToAction("Index", "Home");
+            }
+            catch (PuntosInvalidos ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return Puntaje(atletaEvento.idAtleta,atletaEvento.idEvento);
+            }   
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return Puntaje(atletaEvento.idAtleta, atletaEvento.idEvento);
+            }
+
+            
+          
+            
+
+
+        }
+
+
+
+
+
+
+
+
+        // GET: PublicacionController/Create
+        [HttpGet("Evento/CreateEvento")]
+        public ActionResult CreateEvento()
+        {
+
+            if (HttpContext.Session.GetString("rol") == "Administrador" || HttpContext.Session.GetString("rol") == "Digitador")
+            {
+
+                return View(_altaEvento.HacerAltaEvento());
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+        }
+
+   
+           
+        // POST: PublicacionController/Create
+        [HttpPost("Evento/CreateEvento")]
+        [ValidateAntiForgeryToken]
+        public ActionResult CreateEvento(EventoAltaDto EventoAltaDto)
+        {
+            try
+            {
+
+                
+                _altaEvento.Ejecutar(EventoAltaDto);
+                return RedirectToAction("Index", "Home");
+
+            }
+
+            catch (DatosVaciosEvento ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (FaltanAtletas ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (FechaInvalida ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View(); 
+            }
+
+            
+
+        }
+
+
+
+
+
+
+
+
+
+        // POST: EventoController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: EventoController/Edit/5
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        // POST: EventoController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        // GET: EventoController/Delete/5
+        public ActionResult Delete(int id)
+        {
+            return View();
+        }
+
+        // POST: EventoController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}
+
+***********************************
+Archivo: HomeController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\HomeController.cs
+***********************************
+using Microsoft.AspNetCore.Mvc;
+using Obligatorio.Models;
+using System.Diagnostics;
+
+namespace Obligatorio.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}
+
+***********************************
+Archivo: UsuarioController.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Controllers\UsuarioController.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador;
+using Libreria.LogicaAplicacion.ImplementacionesCU.Usuario;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Microsoft.AspNetCore.Mvc;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.Acceso.Datos.Repositorio.Listas;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
+using Libreria.LogicaNegocio.Entidades;
+using Microsoft.AspNetCore.Http;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+
+namespace Obligatorio.Controllers
+{
+    public class UsuarioController : Controller
+    {
+
+        private IAltaUsuario _altaUsuario;
+        private IAutenticarUsuario _autenticarUsuario;
+        private IBajaUsuario _bajaUsuario;
+        private IBuscarUsuario _buscarUsuario;
+        private IObtenerTodos _obtenerTodos;
+        private IEditarUsuario _editarUsuario;
+
+        private IObtenerAtletas _obtenerAtletas;
+
+        //Constructor
+        public UsuarioController(IAltaUsuario altaUsuario, IAutenticarUsuario autenticarUsuario, IBajaUsuario bajaUsuario,
+            IBuscarUsuario buscarUsuario, IObtenerTodos obtenerTodos, IEditarUsuario editarUsuario, IObtenerAtletas obtenerAtletas)
+        {
+            _altaUsuario = altaUsuario;
+            _autenticarUsuario = autenticarUsuario;
+            _bajaUsuario = bajaUsuario;
+            _buscarUsuario = buscarUsuario;
+            _obtenerTodos = obtenerTodos;
+            _editarUsuario = editarUsuario;
+
+            _obtenerAtletas = obtenerAtletas;
+
+
+
+        }
+        //Con el autenticar usuario da error
+
+
+        /*********************************************/
+        /***************** LOGIN ********************/
+        /********************************************/
+        [HttpGet]
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Login(string email, string contraseña)
+        {
+            
+            try
+            {
+                UsuarioBasicoDto usuario = _autenticarUsuario.Ejecutar(email, contraseña);
+                //Mandamos los datos, rol y el email
+                HttpContext.Session.SetString("rol", usuario.Rol);
+                HttpContext.Session.SetInt32("id", usuario.Id);
+
+                return RedirectToAction("Index", "Home");
+            }
+            catch (UsuarioException ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (Exception)
+            {
+                ViewBag.Advertencia = "Datos Incorrectos! intente denuevo";
+                return View();
+            }
+        }
+        //---------------
+
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Login", "Usuario");
+        }
+
+
+
+
+
+
+        /***********************************************************************************************/
+        /*****************************************ADMINISTRADOR*****************************************/
+        /***********************************************************************************************/
+
+
+        /*********************************************/
+        /************** LISTAR USUARIO ****************/
+        /********************************************/
+
+        // GET: UsuarioController
+        public ActionResult Index()
+        {
+            if (HttpContext.Session.GetString("rol") == "Administrador")
+            {
+                if (TempData.ContainsKey("Mensaje"))
+                {
+                    ViewBag.Mensaje = TempData["Mensaje"];
+                }
+                var usuariosDto = _obtenerTodos.Ejecutar();
+                return View(usuariosDto);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
+
+
+
+            //   return View();
+        }
+
+        // GET: UsuarioController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+
+
+
+
+
+        /**********************************************/
+        /************* ALTA USUARIO ******************/
+        /********************************************/
+
+        // GET: UsuarioController/Create
+        public ActionResult Create()
+        {
+            if (HttpContext.Session.GetString("rol") == "Administrador")
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+
+
+        // POST: UsuarioController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(UsuarioAltaDto usuarioDTO)
+        {
+
+            try
+            {
+                usuarioDTO.AdmAlta = HttpContext.Session.GetInt32("id") ?? 0;
+                usuarioDTO.FechaAlta = DateTime.Now;
+                _altaUsuario.Ejecutar(usuarioDTO);
+                TempData["Mensaje"] = "Usuario creado correctamente";
+                return RedirectToAction(nameof(Index));
+            }
+            catch (UsuarioException ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (Exception)
+            {
+                ViewBag.Error = "Usuario Existente";
+                return View();
+            }
+
+
+
+
+
+
+        }
+
+
+
+
+
+        /*****************************************/
+        /**************EDITAR USUARIO************/
+        /***************************************/
+
+
+        // GET: UsuarioController/Edit/5
+        public ActionResult Edit(int? id)
+        {
+        
+            if (HttpContext.Session.GetString("rol") == "Administrador")
+            {
+                try
+                {
+                    int idUsuario = id.Value;
+
+                    UsuarioBasicoDto usuarioDto = _buscarUsuario.Ejecutar(idUsuario);
+
+                    var usuarioAltaDto = new UsuarioAltaDto
+                    {
+                        Email = usuarioDto.Email,
+                        Rol = usuarioDto.Rol,
+
+                    };
+                    return View(usuarioAltaDto);
+                }
+                catch (UsuarioNoEncontradoException ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View();
+                }
+                catch (UsuarioException ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View();
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View();
+                }
+
+
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
+
+
+
+
+
+
+        }
+        // POST: UsuarioController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, UsuarioAltaDto usuarioDto)
+        {
+            try
+            {
+                usuarioDto.Id = id;
+                _editarUsuario.Ejecutar(usuarioDto);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (UsuarioException ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View(usuarioDto);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View(usuarioDto);
+            }
+
+        }
+
+
+
+
+
+
+
+
+        /*********************************************/
+        /************** BAJA USUARIO ****************/
+        /*******************************************/
+
+        // GET: UsuarioController/Delete/5
+
+        public ActionResult Delete(int? id)
+        {
+
+            if (HttpContext.Session.GetString("rol") == "Administrador")
+            {
+                if (id == null)
+                {
+                    ViewBag.Advertencia = "Incluya el id a buscar.";
+                    return View();
+                }
+                try
+                {
+                    int idUsuario = id.Value;
+
+                    UsuarioBasicoDto usuarioDto = _buscarUsuario.Ejecutar(idUsuario);
+                    if (usuarioDto == null)
+                    {
+                        ViewBag.Advertencia = "Usuario no encontrado";
+                        return View();
+                    }
+
+                    return View(usuarioDto);
+                }
+
+                catch (UsuarioNoEncontradoException ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View();
+                }
+                catch (UsuarioException ex)
+                {
+                    ViewBag.Advertencia = ex.Message;
+                    return View();
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Error = "Error inesperado";
+                    return View();
+                }
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+
+
+
+        }
+
+        // POST: UsuarioController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, UsuarioBasicoDto usuarioDto)
+        {
+            try
+            {
+                _bajaUsuario.Ejecutar(id);
+                return RedirectToAction(nameof(Index));
+            }
+
+            catch (UsuarioNoEncontradoException ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (UsuarioException ex)
+            {
+                ViewBag.Advertencia = ex.Message;
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Error = "Error inesperado";
+                return View();
+            }
+
+        }
+
+
+
+        
+    }
+
+}
+
+***********************************
+Archivo: AltaEventoViewModel.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Models\AltaEventoViewModel.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Evento;
+
+namespace Obligatorio.Models
+{
+    public class AltaEventoViewModel
+    {
+        public EventoAltaDto Dto { get; set; }
+        public IEnumerable<DisciplinaDatosCompletos> Disciplinas { get; set; }
+    }
+}
+
+***********************************
+Archivo: ErrorViewModel.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Obligatorio\Models\ErrorViewModel.cs
+***********************************
+namespace Obligatorio.Models
+{
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}
+
+***********************************
+Archivo: AtletaDatosCompletosDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Atleta\AtletaDatosCompletosDto.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Atleta
+{
+    public class AtletaDatosCompletosDto
+    {
+        public AtletaDatosCompletosDto()
+        {
+        }
+
+        public AtletaDatosCompletosDto(int atletaId)
+        {
+          //  AtletaId = atletaId;
+        }
+
+        public Pais pais { get; set; }
+        public string Apellido { get; set; }
+
+        public string Nombre { get; set; }
+
+        public string Sexo { get; set; }
+
+
+        public int Id { get; set; }
+
+
+        public List<DisciplinaDatosCompletos> Disciplinas { get; set; } = new List<DisciplinaDatosCompletos>();
+        
+
+
+
+        //   public record AtletaDatosCompletosDto(int Id, string Nombre, string CorreoElectronico, DateTime FechaNacimiento, DateTime? FechaDefuncion = null);
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: ListarAtletaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Atleta\ListarAtletaDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Atleta
+{
+    public class ListarAtletaDto
+    {
+
+        public int id { get; set; }
+        public string PaisNombre { get; set; }
+        public string Nombre { get; set; }
+        public string Apellido { get; set; }
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: AsignarDisciplinaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Disciplina\AsignarDisciplinaDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Disciplina
+{
+    public class AsignarDisciplinaDto
+    {
+
+        public string Nombre { get; set; }
+
+
+    }
+}
+
+***********************************
+Archivo: DisciplinaAltaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Disciplina\DisciplinaAltaDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Disciplina
+{
+    public class DisciplinaAltaDto
+    {
+
+        public string Nombre { get; set; }
+        public int Id { get; set; }
+        public DateTime AnoDeIntegracion { get; set; }
+
+
+    }
+}
+
+***********************************
+Archivo: DisciplinaDatosCompletos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Disciplina\DisciplinaDatosCompletos.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Disciplina
+{
+    public class DisciplinaDatosCompletos
+    {
+
+        public string Nombre { get; set; }
+        public int Id { get; set; }
+        public DateTime AnoDeIntegracion { get; set; }
+
+
+        public DisciplinaDatosCompletos()
+        {
+            
+        }
+
+
+    }
+}
+
+***********************************
+Archivo: ListarDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Disciplina\ListarDisciplina.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Disciplina
+{
+    public class ListarDisciplina
+    {
+
+        public string Nombre { get; set; }
+        public int Id { get; set; }
+        public DateTime AnoDeIntegracion { get; set; }
+    }
+}
+
+***********************************
+Archivo: EventoAltaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Evento\EventoAltaDto.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Evento
+{
+    public class EventoAltaDto
+    {
+
+        public List<ListarAtletaDto>  atletas { get; set; }
+        public List<ListarDisciplina> disciplinas { get; set; }
+
+        public DisciplinaDatosCompletos Disciplina { get; set; }
+        public string NombreDePrueba { get; set; }
+        public DateTime FechaDeInicio { get; set; }
+        public DateTime FechaDeFin { get; set; }
+
+        public List<int> ListaSeleccionAtletas { get; set; }
+        public int DisciplinaId { get; set; }
+
+
+
+
+        /*    public EventoAltaDto(DisciplinaDatosCompletos? disciplina)
+            {
+
+            }*/
+
+    }
+}
+
+***********************************
+Archivo: EventoDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Evento\EventoDto.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.PuntajeAtleta;
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Evento
+{
+    public class EventoDto 
+    {
+
+   
+        public int Id { get; set; }
+
+        public Libreria.LogicaNegocio.Entidades.Disciplina disciplina { get; set; }
+        public string NombreDePrueba { get; set; }
+        public DateTime FechaDeInicio { get; set; }
+        public DateTime FechaDeFin { get; set; }
+       // public List<Libreria.LogicaNegocio.Entidades.PuntajeAtleta> AtletasParticipantes { get; set; }
+
+        public List<AtletaDatosCompletosDto> atleta { get; set; }
+
+
+
+
+
+
+
+
+    }
+
+    //UN dto no puede concer objetos, debe conocer dtos.               
+    ///Se debe cambiar esto a un dtos de puntaje atleta que debo crear
+
+
+   
+
+
+}
+
+***********************************
+Archivo: ListarEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Evento\ListarEventos.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Evento
+{
+    public class ListarEventos
+    {
+        public int Id { get; set; }
+
+        public string NombreDePrueba { get; set; }
+        public DateTime FechaDeInicio { get; set; }
+
+        public ListarEventos()
+        {
+            
+        }
+
+
+
+    }
+}
+
+***********************************
+Archivo: AtletaMappers.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Mappers\AtletaMappers.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Mappers
+{
+    public class AtletaMappers
+    {
+        public static AtletaDatosCompletosDto ToAtletaBasicoDto(Libreria.LogicaNegocio.Entidades.Atleta atletas)
+        {
+            
+            AtletaDatosCompletosDto dto = new AtletaDatosCompletosDto();
+            dto.Nombre = atletas.Nombre;
+            dto.Apellido = atletas.Apellido;
+            dto.pais = atletas.Pais;
+            dto.Sexo = atletas.Sexo;
+            dto.Id = atletas.Id;
+            
+
+            
+
+
+            foreach (Libreria.LogicaNegocio.Entidades.Disciplina disciplina in atletas.Disciplinas) 
+            {
+                
+                Libreria.LogicaNegocio.Entidades.Disciplina Dis = new Libreria.LogicaNegocio.Entidades.Disciplina();
+                Dis = disciplina;
+                DisciplinaDatosCompletos  dtoDisc = Mappers.DisciplinaMappers.ToDisciplinaBasicoDto(Dis);
+
+                dto.Disciplinas.Add(dtoDisc);
+            }
+            
+            return dto;
+
+        }
+
+        public void AsignarDisciplina(Libreria.LogicaNegocio.Entidades.Atleta atletaDto , Libreria.LogicaNegocio.Entidades.Disciplina disciplinaDto)
+        {
+            
+            Libreria.LogicaNegocio.Entidades.Disciplina disciplina = new Libreria.LogicaNegocio.Entidades.Disciplina
+            {
+                Id = disciplinaDto.Id,
+                Nombre = disciplinaDto.Nombre
+                
+            };
+
+            
+            atletaDto.AsignarDisciplina(disciplina);
+        }
+
+
+        public static List<ListarAtletaDto> FromListAtletaToListDtoListarAtletas(List<Libreria.LogicaNegocio.Entidades.Atleta> atl)
+        {
+            List<ListarAtletaDto> ret = new List<ListarAtletaDto>();
+
+            foreach (Libreria.LogicaNegocio.Entidades.Atleta atleta in atl)
+            {
+                ListarAtletaDto dtoListarAtletas = new ListarAtletaDto();
+                dtoListarAtletas.id = atleta.Id;
+                dtoListarAtletas.Nombre = atleta.Nombre;
+                dtoListarAtletas.Apellido = atleta.Apellido;
+                dtoListarAtletas.PaisNombre = atleta.Pais.Nombre;
+                ret.Add(dtoListarAtletas);
+            }
+            return ret;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: AtletasParticipantesMapper.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Mappers\AtletasParticipantesMapper.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.PuntajeAtleta;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Mappers
+{
+    public class AtletasParticipantesMapper
+    {
+
+
+        public static ListarAtletasDeLosEventosDto ToParticipantesBasictoDto(Libreria.LogicaNegocio.Entidades.PuntajeAtleta Pa)
+        {
+            return new ListarAtletasDeLosEventosDto
+            {
+                idEvento = Pa.EventoId,
+                idAtleta = Pa.AtletaId,
+                Nombre = Pa.Atleta.Nombre,
+                PuntosAtletas = Pa.PuntosAtletas,
+
+            };
+        }
+
+
+    }
+}
+
+***********************************
+Archivo: DisciplinaMappers.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Mappers\DisciplinaMappers.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaNegocio.Entidades;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Mappers
+{
+    public class DisciplinaMappers
+    {
+
+        /**** Alta ****/
+        public static Libreria.LogicaNegocio.Entidades.Disciplina FromUsuarioDisciplinaDto(DisciplinaAltaDto DA)
+        {
+            return new Libreria.LogicaNegocio.Entidades.Disciplina(DA.Nombre,DA.AnoDeIntegracion);
+
+        }
+
+
+        public static DisciplinaDatosCompletos ToDisciplinaBasicoDto(Libreria.LogicaNegocio.Entidades.Disciplina disciplina)
+        {
+            return new DisciplinaDatosCompletos
+            {
+                Nombre = disciplina.Nombre,
+                Id = disciplina.Id,
+                AnoDeIntegracion = disciplina.AnoDeIntegracion,
+            };
+        }
+
+        public static Libreria.LogicaNegocio.Entidades.Disciplina FromDto(DisciplinaDatosCompletos dto)
+        {
+            //IMPLEMENTAR
+            return new Libreria.LogicaNegocio.Entidades.Disciplina();
+        }
+
+
+
+        public static List<ListarDisciplina> FromListDisciplinaToListDtoDisciplina(List<Libreria.LogicaNegocio.Entidades.Disciplina> di)
+        {
+            List<ListarDisciplina> ret = new List<ListarDisciplina>();
+            foreach (Libreria.LogicaNegocio.Entidades.Disciplina disciplina in di)
+            {
+                ListarDisciplina dtoDisciplina = new ListarDisciplina();
+                dtoDisciplina.Id = disciplina.Id;
+                dtoDisciplina.Nombre = disciplina.Nombre;
+                dtoDisciplina.AnoDeIntegracion = disciplina.AnoDeIntegracion;
+                ret.Add(dtoDisciplina);
+            }
+            return ret;
+        }
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: EventoMappers.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Mappers\EventoMappers.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Evento;
+using Compartido.DTOS.PuntajeAtleta;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaNegocio.Entidades;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Mappers
+{
+    public class EventoMappers
+    {
+        public static Libreria.LogicaNegocio.Entidades.Evento FromDto(EventoAltaDto eventoAltaDto)
+        {
+
+            if (eventoAltaDto != null)
+            {
+                return new Libreria.LogicaNegocio.Entidades.Evento
+                {
+                    Disciplina = new Libreria.LogicaNegocio.Entidades.Disciplina { Id = eventoAltaDto.DisciplinaId },
+                    NombreDePrueba = eventoAltaDto.NombreDePrueba,
+                    FechaDeInicio = eventoAltaDto.FechaDeInicio,
+                    FechaDeFin = eventoAltaDto.FechaDeFin,
+                    AtletasParticipantes = eventoAltaDto.ListaSeleccionAtletas.Select(a => new Libreria.LogicaNegocio.Entidades.PuntajeAtleta { Atleta = new Libreria.LogicaNegocio.Entidades.Atleta { Id = a },AtletaId = a }).ToList(),
+                    //AtletasParticipantes = pa
+                };
+                
+            }
+            return null;
+        }
+
+        public static Libreria.LogicaNegocio.Entidades.Evento FromDtoAltaEventoToEvento(EventoAltaDto dto)
+        {
+            Libreria.LogicaNegocio.Entidades.Evento evento = new Libreria.LogicaNegocio.Entidades.Evento();
+            evento.NombreDePrueba = dto.NombreDePrueba;
+            evento.Disciplina = DisciplinaMappers.FromDto(dto.Disciplina);
+            evento.FechaDeInicio = dto.FechaDeInicio;
+            evento.FechaDeFin = dto.FechaDeInicio;
+
+            foreach (var item in dto.atletas)
+            {
+                evento.AtletasParticipantes.Add(new Libreria.LogicaNegocio.Entidades.PuntajeAtleta() { AtletaId = item.id });
+            };
+            return evento;
+        }
+
+        public static List<ListarEventos> FromDtoListarEventos(List<Libreria.LogicaNegocio.Entidades.Evento> ListaEventoDto)
+        {
+            List<ListarEventos> listaEventos = new List<ListarEventos>();
+
+            foreach (Libreria.LogicaNegocio.Entidades.Evento evento in ListaEventoDto)
+            {
+                ListarEventos dtoEvento = new ListarEventos();
+                dtoEvento.Id = evento.Id;
+                dtoEvento.NombreDePrueba = evento.NombreDePrueba;
+                dtoEvento.FechaDeInicio = evento.FechaDeInicio;
+
+                listaEventos.Add(dtoEvento);
+            }
+            return listaEventos;
+
+
+
+        }
+
+
+
+
+        public static ListarAtletasDeLosEventosDto FromDtoListarLosAtletasDeLosEventos(Libreria.LogicaNegocio.Entidades.PuntajeAtleta dto)
+        {
+
+            return new ListarAtletasDeLosEventosDto
+            {
+                idAtleta = dto.Atleta.Id,
+                Nombre = dto.Atleta.Nombre,
+                PuntosAtletas = dto.PuntosAtletas,
+                idEvento = dto.Evento.Id,
+
+            };
+
+
+
+        }
+
+        /*Registro puntaje */
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: UsuarioMappers.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Mappers\UsuarioMappers.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Mappers
+{
+    public class UsuarioMappers
+    {
+
+        /**** Alta ****/
+        public static Libreria.LogicaNegocio.Entidades.Usuario FromUsuarioAltaDto(UsuarioAltaDto usuarioAltaDto)
+        {
+            Libreria.LogicaNegocio.Entidades.Usuario usu = new Libreria.LogicaNegocio.Entidades.Usuario(usuarioAltaDto.Email, usuarioAltaDto.Contraseña, usuarioAltaDto.Rol);
+            usu.FechaCreacion = usuarioAltaDto.FechaAlta;
+            usu.CreadoPor = usuarioAltaDto.AdmAlta;
+            return usu;
+
+        }
+
+
+        public static UsuarioBasicoDto ToUsuarioBasicoDto(Libreria.LogicaNegocio.Entidades.Usuario usuario)
+        {
+            return new UsuarioBasicoDto
+            {
+                Id = usuario.Id,
+                Email = usuario.Email,
+                Rol = usuario.Rol,
+            };
+        }
+
+
+
+
+        public static Libreria.LogicaNegocio.Entidades.Usuario FromUsuarioModificacionDto(UsuarioAltaDto usuarioDto)
+        {
+            return new Libreria.LogicaNegocio.Entidades.Usuario(usuarioDto.Id, usuarioDto.Email, usuarioDto.Contraseña, usuarioDto.Rol);
+        }
+
+
+
+        public static Libreria.LogicaNegocio.Entidades.Usuario FromLoginDto(UsuarioLoginDto usuarioLoginDto)
+        {
+            return new Libreria.LogicaNegocio.Entidades.Usuario
+            {
+                Email = usuarioLoginDto.Email,
+                Contraseña = usuarioLoginDto.Contrasenia
+            };
+        }
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: ListarAtletasDeLosEventosDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\PuntajeAtleta\ListarAtletasDeLosEventosDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.PuntajeAtleta
+{
+    public class ListarAtletasDeLosEventosDto
+    {
+        public int idAtleta { get; set; }
+        public int idEvento { get; set; } 
+
+        public string Nombre { get; set; }
+        public int PuntosAtletas { get; set; }
+    }
+
+}
+
+***********************************
+Archivo: PuntajeAtletaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\PuntajeAtleta\PuntajeAtletaDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.PuntajeAtleta
+{
+    public class PuntajeAtletaDto
+    {
+
+        public int PuntosAtletas { get; set; }
+        public int EventoId { get; set; }
+        public int AtletaId { get; set; }
+
+
+    }
+}
+
+***********************************
+Archivo: AutenticarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Usuario\AutenticarUsuario.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Usuario
+{
+    public class AutenticarUsuarioDto
+    {
+        public string Email { get; set; }
+        public string Contraseña { get; set; }
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: UsuarioAltaDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Usuario\UsuarioAltaDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Usuario
+{
+    public class UsuarioAltaDto : UsuarioBasicoDto
+    {
+        public string Contraseña { get; set; }
+        public DateTime FechaAlta { get; set; }
+
+        public int AdmAlta { get; set; }
+
+    }
+}
+
+***********************************
+Archivo: UsuarioBasicoDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Usuario\UsuarioBasicoDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Usuario
+{
+    public class UsuarioBasicoDto
+    {
+        public int Id { get; set; }
+
+        public string Email { get; set; }
+        public string Rol { get; set; }
+        public string Contraseña { get; set; }
+        public UsuarioBasicoDto()
+        {
+            
+        }
+        
+    }
+}
+
+***********************************
+Archivo: UsuarioDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Usuario\UsuarioDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Usuario
+{
+    public class UsuarioDto
+    {
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: UsuarioLoginDto.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\DTOS\Usuario\UsuarioLoginDto.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Compartido.DTOS.Usuario
+{
+    public class UsuarioLoginDto : UsuarioBasicoDto
+    {
+        public string Email { get; set; }
+        public string Contrasenia { get; set; }
+        
+
+        public UsuarioLoginDto()
+        {
+                
+        }
+        public UsuarioLoginDto(string email, string contrasenia)
+        {
+                Email = email;
+                Contrasenia = contrasenia;
+        }
+    }
+}
+
+***********************************
+Archivo: LibreriaContext.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\LibreriaContext.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class LibreriaContext : DbContext
+    {
+        //Constructor
+        public LibreriaContext(DbContextOptions<LibreriaContext> opciones) : base(opciones)
+        {
+
+        }
+       
+        
+        //DbSets
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Atleta> Atletas { get; set; }
+        public DbSet<Evento> Eventos { get; set; }
+        public DbSet<Disciplina> Disciplina { get; set; }
+        public DbSet<Pais> Paises { get; set; }
+        public DbSet<PuntajeAtleta> PuntajesAtletas { get; set; }
+
+    }
+}
+
+***********************************
+Archivo: RepositorioAtletaEF.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\RepositorioAtletaEF.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class RepositorioAtletaEF : IRepositorioAtleta
+    {
+
+
+        private LibreriaContext _db;
+        public RepositorioAtletaEF(LibreriaContext db)
+        {
+            _db = db;
+        }
+
+        public void Add(Atleta atletas)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Atleta> FindAll()
+        {
+            try
+            {
+
+                var atletas = _db.Atletas.Include(a => a.Disciplinas).Include(P => P.Pais).ToList();   
+
+                //Esto tenemos que cambiarlo para que no tenga guion bajo 
+                return atletas;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los usuarios", ex);
+            }
+        }
+
+        public IEnumerable<Atleta> FindAllOrdenado()
+        {
+            try
+            {
+
+                var atletas = _db.Atletas.Include(a => a.Disciplinas).Include(P => P.Pais).OrderBy(a => a.Pais.Nombre) // Ordena por País
+                .ThenBy(a => a.Apellido) // Luego por Apellido
+                .ThenBy(a => a.Nombre) // Luego por Nombre
+                .ToList();
+
+                return atletas;
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los usuarios", ex);
+            }
+        }
+        
+
+
+
+        public Atleta FindById(int id)
+        {
+            try
+            {
+                var atleta = _db.Atletas.Find(id);
+                return atleta;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el atleta", ex);
+            }
+        }
+
+        
+        public void AsignarDis(int idAtleta, int idDisciplina)
+        {
+            try
+            {
+                 Atleta a = _db.Atletas.Find(idAtleta);
+    
+            Disciplina d = _db.Disciplina.Find(idDisciplina);
+
+            a.AsignarDisciplina(d);
+            _db.Update(a);
+
+            _db.SaveChanges();
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el atleta");
+            }
+           
+
+        }
+
+        public bool AtletaTieneEsaDisciplina(int idAtleta, int idDisciplina)
+        {
+            var atleta = _db.Atletas
+                .Include(a => a.Disciplinas)
+                .FirstOrDefault(a => a.Id == idAtleta);
+
+            if (atleta == null)
+            {
+                return false; 
+            }
+
+            
+            return atleta.Disciplinas.Any(d => d.Id == idDisciplina);
+        }
+        //devuelve true
+
+
+        public IEnumerable<Atleta> ObtenerAtletasConDisciplinas()
+        {
+            try
+            {
+                var atletas = _db.Atletas
+                    .Include(a => a.Disciplinas) 
+                    .Select(a => new Atleta
+                    {
+                        Id = a.Id,
+                        Nombre = a.Nombre,
+                        Apellido = a.Apellido,
+                        Sexo = a.Sexo,
+                        Pais = a.Pais,
+                        Disciplinas = a.Disciplinas.Select(d => new Disciplina
+                        {
+                            Id = d.Id,
+                            Nombre = d.Nombre
+                        }).ToList()
+                    }).ToList();
+
+                return atletas;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los atletas con disciplinas", ex);
+            }
+        }
+
+
+
+
+
+        public void Update(Atleta objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+
+
+
+
+        public List<Atleta> FindAllWithDisciplinas()
+        {
+            return _db.Atletas.Include(a => a.Disciplinas).ToList();
+        }
+
+
+
+    }
+}
+
+***********************************
+Archivo: RepositorioAtletasDelEventoEF.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\RepositorioAtletasDelEventoEF.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class RepositorioAtletasDelEventoEF : IRepositorioAtletasParticipantes
+    {
+
+
+
+        private LibreriaContext _db;
+        public RepositorioAtletasDelEventoEF(LibreriaContext db)
+        {
+            _db = db;
+        }
+
+
+
+        public void Update(PuntajeAtleta puntajeAtletaActualizado)
+        {
+            try
+            {
+               
+                _db.PuntajesAtletas.Update(puntajeAtletaActualizado);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al actualizar PuntajeAtleta", ex);
+            }
+        }
+
+
+
+        public PuntajeAtleta FindByIdEspecifico(int idAtleta, int idEvento)
+        {
+            try
+            {
+                // Buscar el puntaje utilizando ambos identificadores
+                var part = _db.PuntajesAtletas.Include(p => p.Atleta).Include(p => p.Evento)
+                    .FirstOrDefault(p => p.AtletaId == idAtleta && p.EventoId == idEvento);
+
+                return part;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los Participantes", ex);
+            }
+        }
+
+
+
+
+
+
+
+
+        public void Add(PuntajeAtleta objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<PuntajeAtleta> FindAll()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<PuntajeAtleta> FindAllOrdenado()
+        {
+            throw new NotImplementedException();
+        }
+
+        public PuntajeAtleta FindById(int id)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+***********************************
+Archivo: RepositorioDisciplinaEF.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\RepositorioDisciplinaEF.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class RepositorioDisciplinaEF : IRepositorioDisciplina
+    {
+        private LibreriaContext _db;
+        public RepositorioDisciplinaEF(LibreriaContext db)
+        {
+            _db = db;
+        }
+
+        /*Alta*/
+        public void Add(Disciplina dis)
+        {
+            try
+            {
+                _db.Disciplina.Add(dis);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar el usuario", ex);
+            }
+        }
+
+
+
+
+
+
+
+
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Disciplina> FindAll()
+        {
+            try
+            {
+                return _db.Disciplina.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener las disciplinas", ex);
+            }
+        }
+
+        public IEnumerable<Disciplina> FindAllOrdenado()
+        {
+            
+                return _db.Disciplina.OrderBy(d => d.Nombre).ToList();
+            
+            
+        }
+
+        public Disciplina FindById(int id)
+        {
+            try
+            {
+                var disiplina = _db.Disciplina.Find(id);
+                return disiplina;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener el atleta", ex);
+            }
+        }
+
+        public void Update(Disciplina objeto)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+***********************************
+Archivo: RepositorioEventoEF.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\RepositorioEventoEF.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class RepositorioEventoEF : IRepositorioEvento
+    {
+
+
+        private LibreriaContext _db;
+        public RepositorioEventoEF(LibreriaContext db)
+        {
+            _db = db;
+        }
+
+
+        public void Add(Evento objeto)
+        {
+            List<PuntajeAtleta> pa = new List<PuntajeAtleta>();
+            objeto.Disciplina = _db.Disciplina.Find(objeto.Disciplina.Id);
+
+            if (objeto.AtletasParticipantes != null && objeto.AtletasParticipantes.Count > 0)
+            {
+                foreach (var item in objeto.AtletasParticipantes)
+                {
+                    pa.Add(new PuntajeAtleta
+                    {
+                        Atleta = _db.Atletas.Find(item.Atleta.Id)
+                    });
+                }
+            }
+
+            objeto.AtletasParticipantes = pa;
+
+
+            _db.Eventos.Add(objeto);
+
+            _db.SaveChanges();
+
+
+
+
+        }
+
+
+
+        public IEnumerable<Evento> FindAll()
+        {
+            try
+            {
+                return _db.Eventos.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener las disciplinas", ex);
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public IEnumerable<Evento> FindAllOrdenado()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Evento FindById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public void Update(Evento objeto)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<PuntajeAtleta> FindAtletasDelEvento(int idEvento)
+        {
+            {
+                try
+                {
+                    // Encontrar el evento con los atletas asociados (relación muchos a muchos a través de PuntajeAtleta)
+                    var evento = _db.Eventos
+                        .Include(e => e.AtletasParticipantes) // Incluir la relación con PuntajeAtleta
+                            .ThenInclude(pa => pa.Atleta) // Incluir los atletas dentro de PuntajeAtleta
+                        .FirstOrDefault(e => e.Id == idEvento);
+
+                    // Verificar que el evento exista
+                    if (evento == null)
+                    {
+                        throw new Exception("Evento no encontrado");
+                    }
+
+                    // Retornar la lista de PuntajeAtleta asociados al evento
+                    return evento.AtletasParticipantes.ToList();
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception("Error al obtener los atletas del evento", ex);
+                }
+            }
+
+        }
+
+
+
+
+        //API
+        public IEnumerable<Evento> FindAllByAtletaId(int id)
+        {
+            try
+            {
+                var eventos = _db.Eventos.Include(e => e.Disciplina)
+                                         .Include(e => e.AtletasParticipantes)
+                                         .Where(e => e.AtletasParticipantes.Any(a => a.AtletaId == id))
+                                         .OrderBy(e => e.Disciplina.Nombre)
+                                         .ToList();
+
+                return eventos;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener eventos", ex);
+            }
+        }
+
+
+
+
+
+        public List<Evento> FindAllByDate(DateTime fecha)
+        {
+            return _db.Eventos.Where(a => a.FechaDeInicio == fecha).ToList();
+        }
+
+
+
+public bool FindByNombre(string nombreEvento)
+{
+        return _db.Eventos.Any(e => e.NombreDePrueba == nombreEvento);
+}
+//Si lo encuentra retorna true
+
+
+
+
+
+
+        public PuntajeAtleta RegistroPuntaje(PuntajeAtleta PuntajeNuevo)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+***********************************
+Archivo: RepositorioUsuarioEF.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\EF\RepositorioUsuarioEF.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.EF
+{
+    public class RepositorioUsuarioEF : IRepositorioUsuario
+    {
+
+
+        private LibreriaContext _db;
+        public RepositorioUsuarioEF(LibreriaContext db)
+        {
+            _db = db;
+        }
+
+        /*Alta*/
+        public void Add(Usuario usuario)
+        {
+            try
+            {
+                  _db.Usuarios.Add(usuario);
+                  _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar el usuario", ex);
+            }
+        }
+
+        /*Delete*/
+        public void Delete(int id)
+        {
+                 var usuario = _db.Usuarios.Find(id);
+            try
+            {
+                        _db.Usuarios.Remove(usuario);
+                        _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+
+        public IEnumerable<Usuario> FindAll()
+        {
+            try
+            {
+                return _db.Usuarios.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los usuarios", ex);
+            }
+        }
+
+        public IEnumerable<Usuario> FindAllOrdenado()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Usuario FindByEmail(string email)
+        {
+            try
+            {
+               var usuario = _db.Usuarios.Where(u => u.Email == email).FirstOrDefault();
+               return usuario;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los usuarios", ex);
+            }
+        }
+
+        public Usuario FindById(int id)
+        {
+            try
+            {
+                var usuario = _db.Usuarios.Find(id);
+                return usuario;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener los usuarios", ex);
+            }
+        }
+
+        public IEnumerable<Usuario> FindByRol(string rol)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Usuario Login(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Usuario usuarioCambiado)
+        {
+            var usuarioOriginal = _db.Usuarios.Find(usuarioCambiado.Id);
+            try
+            {
+                usuarioOriginal.Email = usuarioCambiado.Email;
+                usuarioOriginal.Contraseña = usuarioCambiado.Contraseña;
+                usuarioOriginal.Rol = usuarioCambiado.Rol;
+                _db.Usuarios.Update(usuarioOriginal);
+                _db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
+      
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: RepositorioAtletaMemoria.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\Listas\RepositorioAtletaMemoria.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.Listas
+{
+    public class RepositorioAtletaMemoria
+    {
+
+        private static List<Atleta> _atletas = new List<Atleta>();
+
+        public IEnumerable<Atleta> FindAll()
+        {
+            return _atletas;
+
+        }
+
+
+
+        public Atleta FindById(int id)
+        {
+            Atleta atletaBuscado = null;
+
+            foreach (Atleta u in _atletas)
+            {
+                if (u.Id == id)
+                {
+                    atletaBuscado = u;
+                    return atletaBuscado;
+                }
+            }
+            throw new NotImplementedException($"No existe el usuario id {id}");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: RepositorioDisciplinasMemoria.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\Listas\RepositorioDisciplinasMemoria.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.Listas
+{
+    internal class RepositorioDisciplinasMemoria : IRepositorioDisciplina
+    {
+        private static List<Disciplina> _dis = new List<Disciplina>();
+
+        /***Alta ****/
+        private static int _ultimoId = 1;
+        public void Add(Disciplina disciplina)
+        {
+            try
+            {
+                disciplina.Id = _ultimoId++;
+                _dis.Add(disciplina);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            };
+        }
+
+        public void Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Disciplina> FindAll()
+        {
+            return _dis;
+        }
+
+        public IEnumerable<Disciplina> FindAllOrdenado()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Disciplina FindById(int id)
+        {
+            Disciplina DisciplinaBuscado = null;
+
+            foreach (Disciplina u in _dis)
+            {
+                if (u.Id == id)
+                {
+                    DisciplinaBuscado = u;
+                    return DisciplinaBuscado;
+                }
+            }
+            throw new NotImplementedException($"No existe el usuario id {id}");
+        }
+
+        public void Update(Disciplina objeto)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+***********************************
+Archivo: RepositorioEventosMemoria.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\Listas\RepositorioEventosMemoria.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.Listas
+{
+    internal class RepositorioEventosMemoria
+    {
+    }
+}
+
+***********************************
+Archivo: RepositorioPaisMemoria.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\Listas\RepositorioPaisMemoria.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.Listas
+{
+    internal class RepositorioPaisMemoria
+    {
+    }
+}
+
+***********************************
+Archivo: RepositorioUsuarioMemoria.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.Acceso.Datos\Repositorio\Listas\RepositorioUsuarioMemoria.cs
+***********************************
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.Acceso.Datos.Repositorio.Listas
+{
+    public class RepositorioUsuarioMemoria : IRepositorioUsuario
+    {
+
+
+
+        private static List<Usuario> _usuarios = new List<Usuario>();
+
+        /***Alta ****/
+        private static int _ultimoId = 1;
+        public void Add(Usuario usuario)
+        {
+            try
+            {
+                usuario.Id = _ultimoId++;
+                _usuarios.Add(usuario);
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            };
+        }
+
+        /*****Delete*****/
+        public void Delete(int id)
+        {
+            var usuario = FindById(id);
+
+            if (usuario == null)
+            {
+                throw new UsuarioNoEncontradoException($"No existe el usuario id {id}");
+            }
+
+            _usuarios.Remove(usuario);
+        }
+
+
+        public Usuario FindById(int id)
+        {
+            Usuario usuarioBuscado = null;
+
+            foreach (Usuario u in _usuarios)
+            {
+                if (u.Id == id)
+                {
+                    usuarioBuscado = u;
+                    return usuarioBuscado;
+                }
+            }
+            throw new UsuarioNoEncontradoException($"No existe el usuario id {id}");
+        }
+
+
+        public Usuario FindByEmail(string email)
+        {
+            if (string.IsNullOrEmpty(email))
+                throw new UsuarioException("El email no puede ser nulo ni vacío");
+
+
+            Usuario usuarioBuscado = null;
+
+            foreach (Usuario u in _usuarios)
+            {
+                if (u.Email.Equals(email, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    usuarioBuscado = u;
+                    return usuarioBuscado;
+                }
+            }
+            return usuarioBuscado;
+        }
+
+        public IEnumerable<Usuario> FindByRol(string rol)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Usuario Login(string email, string password)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(Usuario objeto)
+        {
+            Usuario usuarioExistente = FindById(objeto.Id);
+            Usuario usuarioConMismoMail = FindByEmail(objeto.Email);
+            if (usuarioConMismoMail != null && usuarioConMismoMail.Id != objeto.Id)
+            {
+                throw new UsuarioException("Ya existe un usuario con ese email");
+            }
+            if (usuarioExistente != null)
+            {
+                usuarioExistente.Email = objeto.Email;
+                usuarioExistente.Rol = objeto.Rol;
+                usuarioExistente.Contraseña = objeto.Contraseña;
+            }
+        }
+
+
+
+        public IEnumerable<Usuario> FindAll()
+        {
+            return _usuarios;
+
+        }
+
+        public IEnumerable<Usuario> FindAllOrdenado()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
+
+***********************************
+Archivo: AsignarDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Atletas\AsignarDisciplina.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Atletas
+{
+    public class AsignarDisciplina : IAsignarDisciplina
+    {
+
+        private IRepositorioAtleta _repositorioAtleta;
+
+
+
+        public AsignarDisciplina(IRepositorioAtleta repositorioAtleta)
+        {
+            _repositorioAtleta = repositorioAtleta;
+        }
+
+        public void Ejecutar(int idA, int idD)
+        {
+           var verificacion =  _repositorioAtleta.AtletaTieneEsaDisciplina(idA, idD);
+
+            if (_repositorioAtleta.AtletaTieneEsaDisciplina(idA, idD))
+            {
+                throw new DisciplinaYaAsignadaException("El atleta ya tiene esta disciplina asignada.");
+            }
+
+
+
+            _repositorioAtleta.AsignarDis(idA, idD);
+        }
+
+        
+    }
+}
+
+***********************************
+Archivo: BuscarAtleta.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Atletas\BuscarAtleta.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Atletas
+{
+    public class BuscarAtleta : IBuscarAtletas
+    {
+
+
+
+        private IRepositorioAtleta _repositorioAtleta;
+
+        public BuscarAtleta(IRepositorioAtleta repositorioAtleta)
+        {
+            _repositorioAtleta = repositorioAtleta;
+        }
+
+
+        public AtletaDatosCompletosDto Ejecutar(int id)
+        {
+
+            LogicaNegocio.Entidades.Atleta usu = _repositorioAtleta.FindById(id);
+
+            AtletaDatosCompletosDto usuarioDto = AtletaMappers.ToAtletaBasicoDto(usu);
+
+            return usuarioDto;
+
+
+        }
+
+      
+    }
+}
+
+***********************************
+Archivo: ObtenerAtletas.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Atletas\ObtenerAtletas.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface;
+using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Atletas
+{
+    public class ObtenerAtletas : IObtenerAtletas
+    {
+
+        private LogicaNegocio.InterfacesRepositorios.IRepositorioAtleta _repoAtleta;
+
+
+        public ObtenerAtletas(LogicaNegocio.InterfacesRepositorios.IRepositorioAtleta repoAtleta)
+        {
+            this._repoAtleta = repoAtleta;
+        }
+        public IEnumerable<AtletaDatosCompletosDto> Ejecutar()
+        {
+            var atletas = _repoAtleta.FindAll();
+            
+            var atletaDto = atletas.Select(u => Compartido.DTOS.Mappers.AtletaMappers.ToAtletaBasicoDto(u));
+
+            return atletaDto;
+        }
+        public IEnumerable<AtletaDatosCompletosDto> EjecutarOrdenado()
+        {
+            var atletas = _repoAtleta.FindAllOrdenado();
+
+            var atletaDto = atletas.Select(u => Compartido.DTOS.Mappers.AtletaMappers.ToAtletaBasicoDto(u));
+
+            return atletaDto;
+        }
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: BuscarAtletaParticipante.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\AtletasParticipantes\BuscarAtletaParticipante.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.PuntajeAtleta;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasParticipantesInterface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.AtletasParticipantes
+{
+    public class BuscarAtletaParticipante : IBuscarAtletaEnEvento
+    {
+        private LogicaNegocio.InterfacesRepositorios.IRepositorioAtletasParticipantes _repoAtletasParticipantes;
+
+        public BuscarAtletaParticipante(LogicaNegocio.InterfacesRepositorios.IRepositorioAtletasParticipantes repoAtlePart)
+        {
+            _repoAtletasParticipantes = repoAtlePart;
+        }
+
+        public ListarAtletasDeLosEventosDto Ejecutar(int idAtleta, int idEvento)
+        {
+            // Buscar el puntaje del atleta utilizando los identificadores de atleta y evento
+            LogicaNegocio.Entidades.PuntajeAtleta PA = _repoAtletasParticipantes.FindByIdEspecifico(idAtleta, idEvento);
+
+            // Convertir la entidad a DTO para pasarlo a la vista
+            ListarAtletasDeLosEventosDto PADto = AtletasParticipantesMapper.ToParticipantesBasictoDto(PA);
+
+            return PADto;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+***********************************
+Archivo: RegistrarPuntaje.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\AtletasParticipantes\RegistrarPuntaje.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.PuntajeAtleta;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.AtletasParticipantesInterface;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.AtletasParticipantes
+{
+    public class RegistrarPuntaje : IRegistrarPuntaje
+    {
+
+        private IRepositorioAtletasParticipantes _repoPar;
+
+
+        public RegistrarPuntaje(IRepositorioAtletasParticipantes repo)
+        {
+
+            _repoPar = repo;
+
+
+        }
+
+
+
+        public void Ejecutar(ListarAtletasDeLosEventosDto PuntajeDto)
+        {
+            if (PuntajeDto.PuntosAtletas < 0)
+            {
+                throw new PuntosInvalidos("Error de puntaje");
+            }
+            var Puntaje = _repoPar.FindByIdEspecifico(PuntajeDto.idAtleta, PuntajeDto.idEvento);
+
+            Puntaje.PuntosAtletas = PuntajeDto.PuntosAtletas;
+
+
+
+            _repoPar.Update(Puntaje);
+        }
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: AltaDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Disciplina\AltaDisciplina.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina
+{
+    public class AltaDisciplina : IAltaDisciplina
+    {
+
+        private readonly IRepositorioDisciplina _repositorioDisciplina;
+
+
+        public AltaDisciplina(IRepositorioDisciplina repoDisciplina)
+        {
+            _repositorioDisciplina = repoDisciplina;
+
+        }
+
+
+
+        public void Ejecutar(DisciplinaAltaDto AltaDDTO)
+        {
+            var disciplina = DisciplinaMappers.FromUsuarioDisciplinaDto(AltaDDTO);
+            if (disciplina.esValido())
+            {
+                LogicaNegocio.Entidades.Disciplina usr = DisciplinaMappers.FromUsuarioDisciplinaDto(AltaDDTO);
+                _repositorioDisciplina.Add(usr);
+            }
+            else 
+            {
+                throw new Exception("Datos no validos");   
+            }
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: BuscarDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Disciplina\BuscarDisciplina.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Mappers;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina
+{
+    public class BuscarDisciplina: IBuscarDisciplina
+    {
+
+        private LogicaNegocio.InterfacesRepositorios.IRepositorioDisciplina _repoDisciplina; 
+
+        public BuscarDisciplina(LogicaNegocio.InterfacesRepositorios.IRepositorioDisciplina repositorioDisciplina)
+        {
+            _repoDisciplina = repositorioDisciplina;
+        }
+
+
+        DisciplinaDatosCompletos IBuscarDisciplina.Ejecutar(int id)
+        {
+            LogicaNegocio.Entidades.Disciplina dis = _repoDisciplina.FindById(id);
+
+            DisciplinaDatosCompletos disciplinaDto = DisciplinaMappers.ToDisciplinaBasicoDto(dis);
+
+            return disciplinaDto;
+        }
+    }
+}
+
+***********************************
+Archivo: ObtenerDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Disciplina\ObtenerDisciplina.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Disciplina
+{
+    public class ObtenerDisciplina : IObtenerDisciplina
+    {
+        private LogicaNegocio.InterfacesRepositorios.IRepositorioDisciplina _repoDisciplina; 
+
+
+        public ObtenerDisciplina(LogicaNegocio.InterfacesRepositorios.IRepositorioDisciplina repoDisciplina)
+        {
+            this._repoDisciplina = repoDisciplina;
+        }
+
+        public IEnumerable<DisciplinaDatosCompletos> Ejecutar()
+        {
+            var disciplinas = _repoDisciplina.FindAllOrdenado();
+ 
+ 
+     if (!disciplinas.Any()) {
+        throw new NoHayDisciplinas("No hay disciplinas");
+    }
+
+            var disciplinasDto = disciplinas.Select(d => Compartido.DTOS.Mappers.DisciplinaMappers.ToDisciplinaBasicoDto(d));
+            return disciplinasDto;
+        }
+
+
+      
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: AltaEvento.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Evento\AltaEvento.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Evento;
+using Compartido.DTOS.Mappers;
+using Libreria.LogicaAplicacion.InterfacesCU.EventoInterface;
+using Libreria.LogicaNegocio.Entidades;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Evento
+{
+    public class AltaEvento : IAltaEvento
+    {
+
+
+        private readonly IRepositorioAtleta _repoAtleta;
+        private readonly IRepositorioDisciplina _repoDisciplina;
+        private readonly IRepositorioEvento _repoEvento;
+
+
+        public AltaEvento(IRepositorioAtleta repoAtleta,IRepositorioDisciplina repoDisciplina, IRepositorioEvento repoEvento )
+        {
+            _repoAtleta = repoAtleta;
+            _repoDisciplina = repoDisciplina;
+            _repoEvento = repoEvento;
+
+        }
+
+        public EventoAltaDto HacerAltaEvento()
+        {
+            List<Atleta> atletas = (List<Atleta>)_repoAtleta.FindAll();
+            List<LogicaNegocio.Entidades.Disciplina> disciplinas = (List<LogicaNegocio.Entidades.Disciplina>)_repoDisciplina.FindAll();
+
+            List<ListarAtletaDto> dtoAtletas = AtletaMappers.FromListAtletaToListDtoListarAtletas(atletas);
+            List<ListarDisciplina> dtoDisciplinas = DisciplinaMappers.FromListDisciplinaToListDtoDisciplina(disciplinas);
+
+            EventoAltaDto altaEvento = new EventoAltaDto();
+            altaEvento.atletas = dtoAtletas;
+            altaEvento.disciplinas = dtoDisciplinas;
+            
+            
+            return altaEvento;
+
+        }
+
+
+
+
+        public void Ejecutar(EventoAltaDto eventoAltaDto)
+        {
+            if (string.IsNullOrWhiteSpace(eventoAltaDto.NombreDePrueba) ||
+                  eventoAltaDto.FechaDeInicio == DateTime.MinValue ||
+    eventoAltaDto.FechaDeFin == DateTime.MinValue ||
+    
+    eventoAltaDto.ListaSeleccionAtletas == null || !eventoAltaDto.ListaSeleccionAtletas.Any() ||
+    eventoAltaDto.DisciplinaId <= 0)
+            {
+                throw new DatosVaciosEvento("Datos vacios");
+            }
+            if (eventoAltaDto.ListaSeleccionAtletas.Count < 3)
+            {
+                throw new FaltanAtletas("El evento debe tener al menos tres atletas registrados.");
+            }
+            if (_repoEvento.FindByNombre(eventoAltaDto.NombreDePrueba))
+            {
+                throw new Exception("Ya existe una evento con este nombre!");
+            }
+            if (eventoAltaDto.FechaDeInicio > eventoAltaDto.FechaDeFin)
+            {
+                throw new FechaInvalida("La fecha de inicio debe ser anterior a la fecha de finalización.");
+            }
+
+            //Busco la disciplina seleccionada
+            Libreria.LogicaNegocio.Entidades.Disciplina disciplina = _repoDisciplina.FindById(eventoAltaDto.DisciplinaId);
+            List<Atleta> listaDeAtletasParticipantes = new List<Atleta>();
+
+    
+
+            //Busco a los atletas seleccionados
+            foreach (Atleta a in _repoAtleta.FindAllWithDisciplinas())
+            {
+                foreach (int id in eventoAltaDto.ListaSeleccionAtletas)
+                {
+                    if (a.Id == id)
+                    {
+                        listaDeAtletasParticipantes.Add(a);
+                    }
+                }
+            }
+
+
+            foreach (Atleta atleta in listaDeAtletasParticipantes)
+            {
+                if (!atleta.Disciplinas.Contains(disciplina))
+                {
+                    throw new Exception("Error");
+                }
+            }
+
+
+
+
+            LogicaNegocio.Entidades.Evento nuevo = EventoMappers.FromDto(eventoAltaDto);
+
+            _repoEvento.Add(nuevo);
+
+
+           
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: AtletasDeLosEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Evento\AtletasDeLosEventos.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.PuntajeAtleta;
+using Libreria.LogicaAplicacion.InterfacesCU.EventoInterface;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Evento
+{
+    public class AtletasDeLosEventos : IAtletasDeLosEventos
+    {
+        private readonly IRepositorioEvento _repoEvento;
+
+
+        public AtletasDeLosEventos(IRepositorioEvento repoEvento)
+        {
+            
+            _repoEvento = repoEvento;
+
+        }
+
+
+        public IEnumerable<ListarAtletasDeLosEventosDto> EjecutarListarAtletasDeLosEventos(int idEvento)
+        {
+
+            var atletas = _repoEvento.FindAtletasDelEvento(idEvento);
+
+            var atletaDto = atletas.Select(u => Compartido.DTOS.Mappers.EventoMappers.FromDtoListarLosAtletasDeLosEventos(u));
+
+            return atletaDto;
+
+
+
+
+        }
+
+        
+    }
+}
+
+***********************************
+Archivo: ObtenerEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Evento\ObtenerEventos.cs
+***********************************
+using Compartido.DTOS.Evento;
+using Compartido.DTOS.Mappers;
+using Libreria.LogicaAplicacion.InterfacesCU.EventoInterface;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Evento
+{
+    public class ObtenerEventos : IObtenerEventos
+    {
+
+        private IRepositorioEvento _repoEvento;
+
+
+        public ObtenerEventos(IRepositorioEvento repoEvento)
+        {
+
+            _repoEvento = repoEvento;
+
+            
+        }
+        public IEnumerable<LogicaNegocio.Entidades.Evento> EjecutarListarEventosPorAtleta(int id)
+        {
+
+
+            var eventosFiltrados = _repoEvento.FindAllByAtletaId(id);
+
+            return eventosFiltrados;
+
+        }
+        public IEnumerable<ListarEventos> EjecutarListarEventos(DateTime fecheDeEvento)
+        {
+
+
+            List<Libreria.LogicaNegocio.Entidades.Evento> listaEventos = _repoEvento.FindAllByDate(fecheDeEvento);
+
+            List<ListarEventos> DtolistaEventos = EventoMappers.FromDtoListarEventos(listaEventos);
+
+            return DtolistaEventos;
+        }
+    }
+}
+
+***********************************
+Archivo: AutenticarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\AutenticarUsuario.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario
+{
+    public class AutenticarUsuario : IAutenticarUsuario
+    {
+
+
+        private IRepositorioUsuario _repositorioUsuario;
+
+        public AutenticarUsuario(IRepositorioUsuario repositorioUsuario)
+        {
+            _repositorioUsuario = repositorioUsuario;
+        }
+
+
+        public UsuarioBasicoDto Ejecutar(string email, string contra)
+        {
+
+            LogicaNegocio.Entidades.Usuario usu = _repositorioUsuario.FindByEmail(email);
+            if (usu == null)
+            {
+                throw new UsuarioException("Usuario no existe!");
+            }
+            if (usu.Contraseña == contra)
+            {
+                UsuarioBasicoDto usuarioDto = UsuarioMappers.ToUsuarioBasicoDto(usu);
+                return usuarioDto;
+
+            }
+            else 
+            {
+                throw new UsuarioException("Password incorrecta!");
+            }    
+        }
+    }
+}
+
+***********************************
+Archivo: IAsignarDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\AtletasInterface\IAsignarDisciplina.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface
+{
+    public interface IAsignarDisciplina
+    {
+
+        void Ejecutar(int idA, int idD);
+
+
+    }
+}
+
+***********************************
+Archivo: IBuscarAtletas.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\AtletasInterface\IBuscarAtletas.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface
+{
+    public interface IBuscarAtletas
+    {
+
+        AtletaDatosCompletosDto Ejecutar(int id);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IObtenerAtletas.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\AtletasInterface\IObtenerAtletas.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.AtletasInterface
+{
+    public interface IObtenerAtletas
+    {
+
+        IEnumerable<AtletaDatosCompletosDto> Ejecutar();
+        IEnumerable<AtletaDatosCompletosDto> EjecutarOrdenado();
+
+
+
+    }
+}
+
+***********************************
+Archivo: IBuscarAtletaEnEvento.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\AtletasParticipantesInterface\IBuscarAtletaEnEvento.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.PuntajeAtleta;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.AtletasParticipantesInterface
+{
+    public interface IBuscarAtletaEnEvento
+    {
+
+        ListarAtletasDeLosEventosDto Ejecutar(int idAtleta, int idEvento);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IRegistrarPuntaje.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\AtletasParticipantesInterface\IRegistrarPuntaje.cs
+***********************************
+using Compartido.DTOS.PuntajeAtleta;
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.AtletasParticipantesInterface
+{
+    public interface IRegistrarPuntaje
+    {
+
+        void Ejecutar(ListarAtletasDeLosEventosDto PuntajeDto);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IAltaDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\DisciplinaInterface\IAltaDisciplina.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface
+{
+    public interface IAltaDisciplina
+    {
+
+        public void Ejecutar(DisciplinaAltaDto DisciplinaDTO);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IBuscarDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\DisciplinaInterface\IBuscarDisciplina.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface
+{
+    public interface IBuscarDisciplina
+    {
+        DisciplinaDatosCompletos Ejecutar(int id);
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: IObtenerDisciplina.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\DisciplinaInterface\IObtenerDisciplina.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.DisciplinaInterface
+{
+    public interface IObtenerDisciplina
+    {
+
+        IEnumerable<DisciplinaDatosCompletos> Ejecutar();
+
+
+
+    }
+}
+
+***********************************
+Archivo: IAltaEvento.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\EventoInterface\IAltaEvento.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Evento;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.EventoInterface
+{
+    public interface IAltaEvento
+    {
+
+        void Ejecutar(EventoAltaDto eventoAltaDto);
+
+        EventoAltaDto HacerAltaEvento();
+    }
+}
+
+***********************************
+Archivo: IAtletasDeLosEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\EventoInterface\IAtletasDeLosEventos.cs
+***********************************
+using Compartido.DTOS.Atleta;
+using Compartido.DTOS.Evento;
+using Compartido.DTOS.PuntajeAtleta;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.EventoInterface
+{
+    public interface IAtletasDeLosEventos
+    {
+
+        IEnumerable<ListarAtletasDeLosEventosDto> EjecutarListarAtletasDeLosEventos(int idEvento);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IObtenerEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\EventoInterface\IObtenerEventos.cs
+***********************************
+using Compartido.DTOS.Disciplina;
+using Compartido.DTOS.Evento;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.EventoInterface
+{
+    public interface IObtenerEventos
+    {
+
+        IEnumerable<ListarEventos> EjecutarListarEventos(DateTime fecheDeEvento);
+        IEnumerable<LogicaNegocio.Entidades.Evento> EjecutarListarEventosPorAtleta(int id);
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: IAutenticarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\IAutenticarUsuario.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface
+{
+    public interface IAutenticarUsuario
+    {
+
+        UsuarioBasicoDto Ejecutar(string email, string contra);
+
+    }
+}
+
+***********************************
+Archivo: DisciplinaYaAsignadaException.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Disciplinas\DisciplinaYaAsignadaException.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas
+{
+    public class DisciplinaYaAsignadaException : Exception
+    {
+        public DisciplinaYaAsignadaException(string message) : base(message) { }
+    }
+
+}
+
+***********************************
+Archivo: NoHayDisciplinas.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Disciplinas\NoHayDisciplinas.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Disciplinas
+{
+    public class NoHayDisciplinas : Exception
+    {
+
+
+        public NoHayDisciplinas(string message) : base(message) { }
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: DatosVaciosEvento.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Eventos\DatosVaciosEvento.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos
+{
+    public class DatosVaciosEvento : Exception
+    {
+
+        public DatosVaciosEvento(string message) : base(message) { }
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: FaltanAtletas.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Eventos\FaltanAtletas.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos
+{
+    public class FaltanAtletas : Exception
+    {
+
+        public FaltanAtletas(string message) : base(message) { }
+
+    
+
+
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: FechaInvalida.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Eventos\FechaInvalida.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos
+{
+    public class FechaInvalida : Exception
+    {
+
+        public FechaInvalida(string message) : base(message) { }
+
+    }
+}
+
+***********************************
+Archivo: PuntosInvalidos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Eventos\PuntosInvalidos.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Eventos
+{
+    public class PuntosInvalidos : Exception
+    {
+
+        public PuntosInvalidos(string message) : base(message) { }
+
+    
+    }
+}
+
+***********************************
+Archivo: ContraMinCaracteres.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Usuarios\ContraMinCaracteres.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios
+{
+    internal class ContraMinCaracteres : UsuarioException
+    {
+    }
+}
+
+***********************************
+Archivo: EmailFormato.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Usuarios\EmailFormato.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios
+{
+    internal class EmailFormato : UsuarioException
+    {
+    }
+}
+
+***********************************
+Archivo: EmailUnico.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Usuarios\EmailUnico.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios
+{
+    internal class EmailUnico : UsuarioException
+    {
+    }
+}
+
+***********************************
+Archivo: UsuarioException.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Usuarios\UsuarioException.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios
+{
+    public class UsuarioException : Exception
+    {
+
+        public UsuarioException()
+        {
+        }
+
+        public UsuarioException(string? message) : base(message)
+        {
+        }
+
+        public UsuarioException(string? message, Exception? innerException) : base(message, innerException)
+        {
+        }
+
+
+    }
+}
+
+***********************************
+Archivo: UsuarioNoEncontradoException.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaNegocio\ExcepcionesPersonalizadas\Usuarios\UsuarioNoEncontradoException.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios
+{
+    public class UsuarioNoEncontradoException : UsuarioException
+    {
+        public UsuarioNoEncontradoException()
+        {
+        }
+
+        public UsuarioNoEncontradoException(string? message) : base(message)
+        {
+        }
+
+        public UsuarioNoEncontradoException(string? message, Exception? innerException) : base(message, innerException)
+        {
+        }
+
+
+
+    }
+}
+
+***********************************
+Archivo: AltaUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\AltaUsuario.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaNegocio.ExcepcionesPersonalizadas.Usuarios;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class AltaUsuario : IAltaUsuario
+    {
+        private readonly IRepositorioUsuario _repositorioUsuarios;
+
+        public AltaUsuario(IRepositorioUsuario repoUsuario)
+        {
+            _repositorioUsuarios = repoUsuario;
+
+        }
+
+
+
+        public void Ejecutar(UsuarioAltaDto usuarioDTO)
+        {
+            LogicaNegocio.Entidades.Usuario usrexistente = _repositorioUsuarios.FindByEmail(usuarioDTO.Email);
+            if (usrexistente == null)
+            {
+                LogicaNegocio.Entidades.Usuario usr = UsuarioMappers.FromUsuarioAltaDto(usuarioDTO);
+                _repositorioUsuarios.Add(usr);
+            }
+            else 
+            {
+                throw new UsuarioException("Existe ya un usuario con ese email! intenta denuevo");
+            }
+
+
+        }
+
+        /*Pasos
+         1. Crear un usuario igual al de la entidad de negocio(usuario) y mapearlo.
+         2. Debo Usuario usuarioNuevo = UsuarioMapper.FromLoginDto(usuario) 
+         3. _repositorioUsuarios.Add(usuarioNuevo)
+         */
+
+    }
+}
+
+***********************************
+Archivo: BajaUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\BajaUsuario.cs
+***********************************
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class BajaUsuario : IBajaUsuario
+    {
+
+
+        private IRepositorioUsuario _repoUsuario;
+        public BajaUsuario(IRepositorioUsuario repoUsuario)
+        {
+            _repoUsuario = repoUsuario;
+        }
+        public void Ejecutar(int id)
+        {
+            _repoUsuario.Delete(id);
+        }
+    }
+}
+
+***********************************
+Archivo: BuscarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\BuscarUsuario.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class BuscarUsuario : IBuscarUsuario
+    {
+
+
+        private IRepositorioUsuario _repositorioUsuario;
+
+        public BuscarUsuario(IRepositorioUsuario repositorioUsuario)
+        {
+            _repositorioUsuario = repositorioUsuario;
+        }
+
+
+        public UsuarioBasicoDto Ejecutar(int id)
+        {
+
+            LogicaNegocio.Entidades.Usuario usu = _repositorioUsuario.FindById(id);
+
+            UsuarioBasicoDto usuarioDto = UsuarioMappers.ToUsuarioBasicoDto(usu);
+
+            return usuarioDto;
+
+
+        }
+
+
+
+    }
+}
+
+***********************************
+Archivo: CreacionDeEventos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\CreacionDeEventos.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class CreacionDeEventos
+    {
+    }
+}
+
+***********************************
+Archivo: EditarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\EditarUsuario.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class EditarUsuario : IEditarUsuario
+    {
+
+
+        private readonly IRepositorioUsuario _repositorioUsuario;
+        public EditarUsuario(IRepositorioUsuario repositorioUsuario)
+        {
+            _repositorioUsuario = repositorioUsuario;
+        }
+
+        public void Ejecutar(UsuarioAltaDto usuarioDto)
+        {
+            if (usuarioDto == null || usuarioDto.Email == null || usuarioDto.Id <= 0)
+            {
+                throw new Exception("El usuario no es válido");
+            }
+            var usuarioExistente = _repositorioUsuario.FindByEmail(usuarioDto.Email);
+            if (_repositorioUsuario.FindByEmail(usuarioDto.Email) != null && usuarioDto.Email != usuarioExistente.Email)
+            {
+                throw new InvalidOperationException("El email ya está en uso");
+            }
+            // Mapear el usuarioDto a un Usuario
+
+            Libreria.LogicaNegocio.Entidades.Usuario usuario = UsuarioMappers.FromUsuarioModificacionDto(usuarioDto);
+            // Guardar el usuario pidiéndoselo a la capa de persistencia (Repositorio de usuarios)
+            _repositorioUsuario.Update(usuario);
+        }
+    }
+}
+
+***********************************
+Archivo: ObtenerTodos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\ImplementacionesCU\Usuario\Administrador\ObtenerTodos.cs
+***********************************
+using Compartido.DTOS.Mappers;
+using Compartido.DTOS.Usuario;
+using Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador;
+using Libreria.LogicaNegocio.InterfacesRepositorios;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.ImplementacionesCU.Usuario.Administrador
+{
+    public class ObtenerTodos : IObtenerTodos
+    {
+        private IRepositorioUsuario _repoUsuario; 
+        public ObtenerTodos(IRepositorioUsuario _repoUsuario)
+        {
+            this._repoUsuario = _repoUsuario;
+        }
+        public IEnumerable<UsuarioBasicoDto> Ejecutar()
+        {
+            var usuarios = _repoUsuario.FindAll();
+
+            var usuariosDto = usuarios.Select(u => UsuarioMappers.ToUsuarioBasicoDto(u));
+            return usuariosDto;
+        }
+    }
+}
+
+***********************************
+Archivo: EditarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\Administrador\EditarUsuario.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador
+{
+    public interface IEditarUsuario
+    {
+
+        void Ejecutar(UsuarioAltaDto usuarioDto);
+
+
+
+
+    }
+}
+
+***********************************
+Archivo: IAltaUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\Administrador\IAltaUsuario.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador
+{
+    public interface IAltaUsuario
+    {
+      public void Ejecutar(UsuarioAltaDto usuarioDTO);
+    }
+}
+
+***********************************
+Archivo: IBajaUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\Administrador\IBajaUsuario.cs
+***********************************
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador
+{
+    public interface IBajaUsuario
+    {
+
+        void Ejecutar(int id);
+
+
+
+    }
+}
+
+***********************************
+Archivo: IBuscarUsuario.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\Administrador\IBuscarUsuario.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador
+{
+    public interface IBuscarUsuario
+    {
+
+        UsuarioBasicoDto Ejecutar(int id);
+
+
+    }
+}
+
+***********************************
+Archivo: IObtenerTodos.cs
+Carpeta: C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\InterfacesCU\UsuarioInterface\Administrador\IObtenerTodos.cs
+***********************************
+using Compartido.DTOS.Usuario;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Libreria.LogicaAplicacion.InterfacesCU.UsuarioInterface.Administrador
+{
+    public interface IObtenerTodos
+    {
+        IEnumerable<UsuarioBasicoDto> Ejecutar();
+    }
+}

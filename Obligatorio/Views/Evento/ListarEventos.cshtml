@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Compartido.DTOS.Evento.ListarEventos>
+
+@{
+    ViewData["Title"] = "ListarEventos";
+}
+
+<h1>ListarEventos</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDePrueba)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeInicio)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreDePrueba)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaDeInicio)
+            </td>
+            <td>
+                    @Html.ActionLink("Ver los atletas del evento", "ListarAtletasDelEvento", "Evento", new { IdEvento = item.Id }) |
+               
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,1631 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\mappers\\disciplinamappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\mappers\\disciplinamappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\disciplina\\buscardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\disciplina\\buscardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\controllers\\disciplinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\disciplina\\eliminardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\disciplina\\eliminardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositoriodisciplinaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositoriodisciplinaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\disciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\disciplina\\editardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\disciplina\\editardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\disciplina\\altadisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\disciplina\\altadisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesrepositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesrepositorios\\irepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\controllers\\atletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\controllers\\atletacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\errordedatosdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\errordedatosdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\disciplinayaasignadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\disciplinayaasignadaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositorioeventoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositorioeventoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\evento\\filtrareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\evento\\filtrareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\controllers\\eventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\evento\\obtenereventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\evento\\obtenereventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\nohayeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\nohayeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\faltanatletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\faltanatletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\evento\\atletasdeloseventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\evento\\atletasdeloseventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesrepositorios\\irepositorioeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesrepositorios\\irepositorioeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\evento\\altaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\evento\\altaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\listas\\repositoriodisciplinasmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\listas\\repositoriodisciplinasmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesrepositorios\\irepositoriodisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesrepositorios\\irepositoriodisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\atleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\tokenutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\tokenutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\mappers\\eventomappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\mappers\\eventomappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\evento\\filtrareventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\evento\\filtrareventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\eventointerface\\ifiltrareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\eventointerface\\ifiltrareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\auditoria\\registrarauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\auditoria\\registrarauditoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\migrations\\20241126191738_auditoriasmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\migrations\\20241126191738_auditoriasmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositorioauditoriaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositorioauditoriaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\libreriacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositorioatletaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositorioatletaef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\usuario\\autenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\usuario\\autenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\autenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\autenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\puntajeatleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\puntajeatleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\evento\\listareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\evento\\listareventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\evento\\eventoaltadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\evento\\eventoaltadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\evento\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\evento\\eventodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\mappers\\atletamappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\mappers\\atletamappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\atleta\\atletadatoscompletosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\atleta\\atletadatoscompletosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\atletas\\obteneratletaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\atletas\\obteneratletaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\atletas\\obteneratletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\atletas\\obteneratletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45FAB6DD-C264-4B8F-AAC4-85BEA49A0039}|Libreria.API\\Libreria.API.csproj|solutionrelative:libreria.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\eventointerface\\iobtenereventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\eventointerface\\iobtenereventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\atletas\\buscaratleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\atletas\\buscaratleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\atletasinterface\\iobteneratletaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\atletasinterface\\iobteneratletaporid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\atletasinterface\\iobteneratletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\atletasinterface\\iobteneratletas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesrepositorios\\irepositorioatleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesrepositorios\\irepositorioatleta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\disciplina\\disciplinadatoscompletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\disciplina\\disciplinadatoscompletos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\disciplina\\disciplinaaltadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\disciplina\\disciplinaaltadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\disciplina\\asignardisciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\disciplina\\asignardisciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\disciplina\\listardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\disciplina\\listardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\disciplina\\editardisciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\disciplina\\editardisciplinadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\atleta\\listaratletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\atleta\\listaratletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\mappers\\atletasparticipantesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\mappers\\atletasparticipantesmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ieliminardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ieliminardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ieditardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ieditardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\disciplina\\obtenerdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\disciplina\\obtenerdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\iobtenerdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\iobtenerdisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ialtadisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\disciplinainterface\\ialtadisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositoriousuarioef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositoriousuarioef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\mappers\\usuariomappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\mappers\\usuariomappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesrepositorios\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesrepositorios\\irepositoriousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\usuariointerface\\administrador\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\usuariointerface\\administrador\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\puntajeatleta\\puntajeatletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\puntajeatleta\\puntajeatletadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\compartido\\dtos\\puntajeatleta\\listaratletasdeloseventosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52BF8735-B3F9-4305-A1BA-A7E878D2413E}|Compartido\\Compartido.csproj|solutionrelative:compartido\\dtos\\puntajeatleta\\listaratletasdeloseventosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\interfacesentidades\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\interfacesentidades\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\puntosinvalidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\puntosinvalidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\fechainvalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\fechainvalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\datosvaciosevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\eventos\\datosvaciosevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\nohaydisciplinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\disciplinas\\nohaydisciplinas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\entidades\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\usuariointerface\\iautenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\usuariointerface\\iautenticarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\interfacescu\\eventointerface\\ialtaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\interfacescu\\eventointerface\\ialtaevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\obtenertodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\obtenertodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\creaciondeeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\creaciondeeventos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\buscarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\buscarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\bajausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\bajausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\altausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\usuario\\administrador\\altausuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\atletasparticipantes\\registrarpuntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\atletasparticipantes\\registrarpuntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicaaplicacion\\implementacionescu\\atletas\\asignardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FD565E9-2940-454D-B1A9-DE33D198044E}|Libreria.LogicaAplicacion\\Libreria.LogicaAplicacion.csproj|solutionrelative:libreria.logicaaplicacion\\implementacionescu\\atletas\\asignardisciplina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\listas\\repositoriousuariomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\listas\\repositoriousuariomemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\listas\\repositoriopaismemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\listas\\repositoriopaismemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\listas\\repositorioatletamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\listas\\repositorioatletamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.acceso.datos\\repositorio\\ef\\repositorioatletasdeleventoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5111AB8A-D7E5-4D55-A468-4FC158D2228A}|Libreria.Acceso.Datos\\Libreria.Acceso.Datos.csproj|solutionrelative:libreria.acceso.datos\\repositorio\\ef\\repositorioatletasdeleventoef.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\contramincaracteres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\contramincaracteres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\emailformato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\emailformato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\usuarioexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\usuarioexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\usuarionoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\usuarionoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|c:\\users\\adril\\onedrive\\desktop\\obligatorio parte 2 ver 19\\obligatorio back\\libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\emailunico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2700E0-E8B7-46C7-A905-A25AEAE11AF1}|Libreria.LogicaNegocio\\Libreria.LogicaNegocio.csproj|solutionrelative:libreria.logicanegocio\\excepcionespersonalizadas\\usuarios\\emailunico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomas\\Downloads\\Obligatorio ver 21\\Obligatorio ver 20\\Libreria.Acceso.Datos\\Migrations\\20241017005222_unique.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alumnoFI\\Desktop\\Obligatorio ver 19\\Libreria.Acceso.Datos\\Migrations\\20241016124506_puntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DisciplinaMappers.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\DisciplinaMappers.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Mappers\\DisciplinaMappers.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\DisciplinaMappers.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Mappers\\DisciplinaMappers.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:11:24.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DisciplinaController.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\DisciplinaController.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\Controllers\\DisciplinaController.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\DisciplinaController.cs",
+              "RelativeToolTip": "Libreria.API\\Controllers\\DisciplinaController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAswGkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:21:25.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EliminarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EliminarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EliminarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EliminarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EliminarDisciplina.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:19:50.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AltaDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\AltaDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\AltaDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\AltaDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\AltaDisciplina.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAIwCkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:46:26.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositorioDisciplinaEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioDisciplinaEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioDisciplinaEF.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioDisciplinaEF.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioDisciplinaEF.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:27:06.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Program.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\Program.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Program.cs",
+              "RelativeToolTip": "Libreria.API\\Program.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAAwGIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:35:35.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\BuscarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\BuscarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\BuscarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\BuscarDisciplina.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T17:06:17.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FiltrarEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\FiltrarEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\FiltrarEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\FiltrarEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\FiltrarEventos.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:09:49.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AtletaController.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\AtletaController.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\Controllers\\AtletaController.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\AtletaController.cs",
+              "RelativeToolTip": "Libreria.API\\Controllers\\AtletaController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB0AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:41:49.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorio.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAMwA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:28:49.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EditarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EditarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EditarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\EditarDisciplina.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAcwCIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:17:02.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Disciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Disciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\Disciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Disciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\Disciplina.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAIAwwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.LogicaNegocio\\Entidades",
+              "WhenOpened": "2024-10-14T14:26:53.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DisciplinaYaAsignadaException.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\DisciplinaYaAsignadaException.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\DisciplinaYaAsignadaException.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\DisciplinaYaAsignadaException.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\DisciplinaYaAsignadaException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:16:04.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RepositorioEventoEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioEventoEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioEventoEF.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioEventoEF.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioEventoEF.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAqwNIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.Acceso.Datos\\Repositorio\\EF",
+              "WhenOpened": "2024-10-20T18:41:37.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorDeDatosDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\ErrorDeDatosDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\ErrorDeDatosDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\ErrorDeDatosDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\ErrorDeDatosDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:31:43.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventoController.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\EventoController.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\Controllers\\EventoController.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\EventoController.cs",
+              "RelativeToolTip": "Libreria.API\\Controllers\\EventoController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:14:52.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ObtenerEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\ObtenerEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\ObtenerEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\ObtenerEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\ObtenerEventos.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:17:11.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AtletasDeLosEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AtletasDeLosEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AtletasDeLosEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AtletasDeLosEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AtletasDeLosEventos.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:16:50.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Libreria.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:22:18.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FaltanAtletas.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FaltanAtletas.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FaltanAtletas.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FaltanAtletas.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FaltanAtletas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:04:30.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NoHayEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\NoHayEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\NoHayEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\NoHayEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\NoHayEventos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:19:52.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepositorioEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioEventos.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAASwBgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:40:44.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Evento.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\Evento.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Evento.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\Evento.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:04:23.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AltaEvento.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AltaEvento.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AltaEvento.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AltaEvento.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento\\AltaEvento.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAtwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Evento",
+              "WhenOpened": "2024-10-21T00:07:27.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RepositorioDisciplinasMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioDisciplinasMemoria.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioDisciplinasMemoria.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioDisciplinasMemoria.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioDisciplinasMemoria.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:18:22.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IRepositorioDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioDisciplina.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAArwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:32:38.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Atleta.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Atleta.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\Atleta.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Atleta.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\Atleta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T23:01:18.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Libreria.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\appsettings.json",
+              "RelativeToolTip": "Libreria.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T18:37:46.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TokenUtility.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\TokenUtility.cs",
+              "RelativeDocumentMoniker": "Libreria.API\\TokenUtility.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\TokenUtility.cs",
+              "RelativeToolTip": "Libreria.API\\TokenUtility.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:23:58.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.202\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAkwAkBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-28T12:52:38.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FiltrarEventoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\FiltrarEventoDTO.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Evento\\FiltrarEventoDTO.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\FiltrarEventoDTO.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Evento\\FiltrarEventoDTO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:38:48.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EventoMappers.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\EventoMappers.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Mappers\\EventoMappers.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\EventoMappers.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Mappers\\EventoMappers.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwF8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:41:37.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IFiltrarEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IFiltrarEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IFiltrarEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IFiltrarEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IFiltrarEventos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:12:48.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AutenticarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Usuario\\AutenticarUsuario.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Usuario\\AutenticarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Usuario\\AutenticarUsuario.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Usuario\\AutenticarUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:14:10.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AutenticarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\AutenticarUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\AutenticarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\AutenticarUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\AutenticarUsuario.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:30:20.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RegistrarAuditoria.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Auditoria\\RegistrarAuditoria.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Auditoria\\RegistrarAuditoria.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Auditoria\\RegistrarAuditoria.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Auditoria\\RegistrarAuditoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:07:04.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PuntajeAtleta.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\PuntajeAtleta.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\PuntajeAtleta.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\PuntajeAtleta.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\PuntajeAtleta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:05:57.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LibreriaContext.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\LibreriaContext.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\LibreriaContext.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\LibreriaContext.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\LibreriaContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:13:48.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RepositorioAuditoriaEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAuditoriaEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAuditoriaEF.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAuditoriaEF.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAuditoriaEF.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:13:52.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20241126191738_AuditoriasMig.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Migrations\\20241126191738_AuditoriasMig.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Migrations\\20241126191738_AuditoriasMig.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Migrations\\20241126191738_AuditoriasMig.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Migrations\\20241126191738_AuditoriasMig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:13:56.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RepositorioAtletaEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletaEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletaEF.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletaEF.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletaEF.cs",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAAALYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.Acceso.Datos\\Repositorio\\EF",
+              "WhenOpened": "2024-10-20T23:00:31.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "EventoDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\EventoDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Evento\\EventoDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\EventoDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Evento\\EventoDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:25:14.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ListarEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\ListarEventos.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Evento\\ListarEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\ListarEventos.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Evento\\ListarEventos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:25:32.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "EventoAltaDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\EventoAltaDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Evento\\EventoAltaDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Evento\\EventoAltaDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Evento\\EventoAltaDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T00:20:23.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AtletaMappers.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\AtletaMappers.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Mappers\\AtletaMappers.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\AtletaMappers.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Mappers\\AtletaMappers.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:04:30.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ObtenerAtletaPorId.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletaPorId.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletaPorId.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletaPorId.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletaPorId.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:32:58.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AtletaDatosCompletosDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Atleta\\AtletaDatosCompletosDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Atleta\\AtletaDatosCompletosDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Atleta\\AtletaDatosCompletosDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Atleta\\AtletaDatosCompletosDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:27:23.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ObtenerAtletas.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletas.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletas.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletas.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\ObtenerAtletas.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas",
+              "WhenOpened": "2024-10-09T13:42:09.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Libreria.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Libreria.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T11:52:10.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IObtenerEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IObtenerEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IObtenerEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IObtenerEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IObtenerEventos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T13:09:24.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "BuscarAtleta.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\BuscarAtleta.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\BuscarAtleta.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\BuscarAtleta.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\BuscarAtleta.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:32:12.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IObtenerAtletaPorId.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletaPorId.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletaPorId.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletaPorId.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletaPorId.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T11:39:57.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IRepositorioAtleta.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioAtleta.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioAtleta.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioAtleta.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioAtleta.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:02:44.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IObtenerAtletas.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletas.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletas.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletas.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\AtletasInterface\\IObtenerAtletas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:13:38.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ListarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\ListarDisciplina.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Disciplina\\ListarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\ListarDisciplina.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Disciplina\\ListarDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:17:30.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ListarAtletaDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Atleta\\ListarAtletaDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Atleta\\ListarAtletaDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Atleta\\ListarAtletaDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Atleta\\ListarAtletaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:51:03.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AsignarDisciplinaDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\AsignarDisciplinaDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Disciplina\\AsignarDisciplinaDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\AsignarDisciplinaDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Disciplina\\AsignarDisciplinaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:58:45.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "DisciplinaAltaDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\DisciplinaAltaDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Disciplina\\DisciplinaAltaDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\DisciplinaAltaDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Disciplina\\DisciplinaAltaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T13:48:57.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EditarDisciplinaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\EditarDisciplinaDTO.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Disciplina\\EditarDisciplinaDTO.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\EditarDisciplinaDTO.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Disciplina\\EditarDisciplinaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:14:21.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DisciplinaDatosCompletos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\DisciplinaDatosCompletos.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Disciplina\\DisciplinaDatosCompletos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Disciplina\\DisciplinaDatosCompletos.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Disciplina\\DisciplinaDatosCompletos.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T12:03:56.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AtletasParticipantesMapper.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\AtletasParticipantesMapper.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Mappers\\AtletasParticipantesMapper.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\AtletasParticipantesMapper.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Mappers\\AtletasParticipantesMapper.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:10:31.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "IEliminarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEliminarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEliminarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEliminarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEliminarDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:21:28.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IEditarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEditarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEditarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEditarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IEditarDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:11:34.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ObtenerDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\ObtenerDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\ObtenerDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\ObtenerDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina\\ObtenerDisciplina.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Disciplina",
+              "WhenOpened": "2024-10-20T23:24:53.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IObtenerDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IObtenerDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IObtenerDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IObtenerDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IObtenerDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:11:46.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IAltaDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IAltaDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IAltaDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IAltaDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\DisciplinaInterface\\IAltaDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:11:36.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RepositorioUsuarioEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioUsuarioEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioUsuarioEF.cs",
+              "ToolTip": "Libreria.Acceso.Datos/Repositorio/EF/RepositorioUsuarioEF.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwGkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Libreria.Acceso.Datos\\Repositorio\\EF",
+              "OverriddenToolTip": "Libreria.Acceso.Datos/Repositorio/EF/RepositorioUsuarioEF.cs",
+              "WhenOpened": "2024-10-20T18:41:37.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EditarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\EditarUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\EditarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\EditarUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\EditarUsuario.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:41:37.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "UsuarioMappers.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\UsuarioMappers.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\Mappers\\UsuarioMappers.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\Mappers\\UsuarioMappers.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\Mappers\\UsuarioMappers.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T21:31:10.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IRepositorioUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesRepositorios\\IRepositorioUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:29:10.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EditarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\Administrador\\EditarUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\Administrador\\EditarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\Administrador\\EditarUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\Administrador\\EditarUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T11:12:13.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ListarAtletasDeLosEventosDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\PuntajeAtleta\\ListarAtletasDeLosEventosDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\PuntajeAtleta\\ListarAtletasDeLosEventosDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\PuntajeAtleta\\ListarAtletasDeLosEventosDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\PuntajeAtleta\\ListarAtletasDeLosEventosDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:12:50.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "PuntajeAtletaDto.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\PuntajeAtleta\\PuntajeAtletaDto.cs",
+              "RelativeDocumentMoniker": "Compartido\\DTOS\\PuntajeAtleta\\PuntajeAtletaDto.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Compartido\\DTOS\\PuntajeAtleta\\PuntajeAtletaDto.cs",
+              "RelativeToolTip": "Compartido\\DTOS\\PuntajeAtleta\\PuntajeAtletaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:13:03.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesEntidades\\IEntity.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\InterfacesEntidades\\IEntity.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\InterfacesEntidades\\IEntity.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\InterfacesEntidades\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:28:43.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FechaInvalida.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FechaInvalida.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FechaInvalida.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FechaInvalida.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\FechaInvalida.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:08:34.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DatosVaciosEvento.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\DatosVaciosEvento.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\DatosVaciosEvento.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\DatosVaciosEvento.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\DatosVaciosEvento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:17:49.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "NoHayDisciplinas.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\NoHayDisciplinas.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\NoHayDisciplinas.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\NoHayDisciplinas.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Disciplinas\\NoHayDisciplinas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:36:13.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\Usuario.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAADwv0sAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T18:39:10.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Pais.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\Entidades\\Pais.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\Entidades\\Pais.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\Entidades\\Pais.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T23:51:43.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PuntosInvalidos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\PuntosInvalidos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\PuntosInvalidos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\PuntosInvalidos.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Eventos\\PuntosInvalidos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:13:08.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IAutenticarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\IAutenticarUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\IAutenticarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\IAutenticarUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\UsuarioInterface\\IAutenticarUsuario.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:10:46.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IAltaEvento.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IAltaEvento.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IAltaEvento.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IAltaEvento.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\InterfacesCU\\EventoInterface\\IAltaEvento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:18:13.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ObtenerTodos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\ObtenerTodos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\ObtenerTodos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\ObtenerTodos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\ObtenerTodos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:17:47.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "CreacionDeEventos.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\CreacionDeEventos.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\CreacionDeEventos.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\CreacionDeEventos.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\CreacionDeEventos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:17:42.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "BajaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BajaUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BajaUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BajaUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BajaUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:17:38.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AltaUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\AltaUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\AltaUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\AltaUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\AltaUsuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T19:09:40.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RegistrarPuntaje.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\AtletasParticipantes\\RegistrarPuntaje.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\AtletasParticipantes\\RegistrarPuntaje.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\AtletasParticipantes\\RegistrarPuntaje.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\AtletasParticipantes\\RegistrarPuntaje.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T01:25:08.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "BuscarUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BuscarUsuario.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BuscarUsuario.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BuscarUsuario.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Usuario\\Administrador\\BuscarUsuario.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T22:35:04.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "AsignarDisciplina.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\AsignarDisciplina.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\AsignarDisciplina.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\AsignarDisciplina.cs",
+              "RelativeToolTip": "Libreria.LogicaAplicacion\\ImplementacionesCU\\Atletas\\AsignarDisciplina.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T11:28:45.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "RepositorioUsuarioMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioUsuarioMemoria.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioUsuarioMemoria.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioUsuarioMemoria.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioUsuarioMemoria.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAA4wGsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:20:59.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "RepositorioPaisMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioPaisMemoria.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioPaisMemoria.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioPaisMemoria.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioPaisMemoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:18:21.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "RepositorioAtletaMemoria.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioAtletaMemoria.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioAtletaMemoria.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioAtletaMemoria.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\Listas\\RepositorioAtletaMemoria.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:18:27.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "RepositorioAtletasDelEventoEF.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletasDelEventoEF.cs",
+              "RelativeDocumentMoniker": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletasDelEventoEF.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletasDelEventoEF.cs",
+              "RelativeToolTip": "Libreria.Acceso.Datos\\Repositorio\\EF\\RepositorioAtletasDelEventoEF.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:14:19.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ContraMinCaracteres.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\ContraMinCaracteres.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\ContraMinCaracteres.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\ContraMinCaracteres.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\ContraMinCaracteres.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:16:05.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "UsuarioException.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioException.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioException.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioException.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:16:08.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "EmailFormato.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailFormato.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailFormato.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailFormato.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailFormato.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:16:06.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "UsuarioNoEncontradoException.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioNoEncontradoException.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioNoEncontradoException.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioNoEncontradoException.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\UsuarioNoEncontradoException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T11:15:34.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "EmailUnico.cs",
+              "DocumentMoniker": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailUnico.cs",
+              "RelativeDocumentMoniker": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailUnico.cs",
+              "ToolTip": "C:\\Users\\adril\\OneDrive\\Desktop\\Obligatorio Parte 2 ver 19\\Obligatorio BACK\\Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailUnico.cs",
+              "RelativeToolTip": "Libreria.LogicaNegocio\\ExcepcionesPersonalizadas\\Usuarios\\EmailUnico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T21:16:07.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20241017005222_unique.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\Downloads\\Obligatorio ver 21\\Obligatorio ver 20\\Libreria.Acceso.Datos\\Migrations\\20241017005222_unique.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\tomas\\Downloads\\Obligatorio ver 21\\Obligatorio ver 20\\Libreria.Acceso.Datos\\Migrations\\20241017005222_unique.cs",
+              "ToolTip": "C:\\Users\\tomas\\Downloads\\Obligatorio ver 21\\Obligatorio ver 20\\Libreria.Acceso.Datos\\Migrations\\20241017005222_unique.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\tomas\\Downloads\\Obligatorio ver 21\\Obligatorio ver 20\\Libreria.Acceso.Datos\\Migrations\\20241017005222_unique.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T00:52:22.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20241016124506_puntaje.cs",
+              "DocumentMoniker": "C:\\Users\\alumnoFI\\Desktop\\Obligatorio ver 19\\Libreria.Acceso.Datos\\Migrations\\20241016124506_puntaje.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\alumnoFI\\Desktop\\Obligatorio ver 19\\Libreria.Acceso.Datos\\Migrations\\20241016124506_puntaje.cs",
+              "ToolTip": "C:\\Users\\alumnoFI\\Desktop\\Obligatorio ver 19\\Libreria.Acceso.Datos\\Migrations\\20241016124506_puntaje.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\alumnoFI\\Desktop\\Obligatorio ver 19\\Libreria.Acceso.Datos\\Migrations\\20241016124506_puntaje.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T12:45:06.398Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\bin\Debug\net8.0\TestPrint.exe
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\bin\Debug\net8.0\TestPrint.deps.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\bin\Debug\net8.0\TestPrint.runtimeconfig.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\bin\Debug\net8.0\TestPrint.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\bin\Debug\net8.0\TestPrint.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\refint\TestPrint.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\TestPrint.genruntimeconfig.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\TestPrint\obj\Debug\net8.0\ref\TestPrint.dll

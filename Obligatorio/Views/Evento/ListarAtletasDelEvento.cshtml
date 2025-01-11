@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Compartido.DTOS.PuntajeAtleta.ListarAtletasDeLosEventosDto>
+
+@{
+    ViewData["Title"] = "ListarAtletasDelEvento";
+}
+
+<h1>ListarAtletasDelEvento</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.idAtleta)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PuntosAtletas)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.idAtleta)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PuntosAtletas)
+            </td>
+                <td>
+                    @Html.ActionLink("Registrar puntaje", "Puntaje", "Evento", new { idAtleta = item.idAtleta, idEvento = ViewBag.IdEvento }, null) |
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

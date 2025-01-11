@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Obligatorio
+build_property.RootNamespace = Obligatorio
+build_property.ProjectDir = C:\Users\alumnoFI\Desktop\Obligatorio ver 31\Obligatorio\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\alumnoFI\Desktop\Obligatorio ver 31\Obligatorio
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Atleta/AsignarDisciplina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRsZXRhXEFzaWduYXJEaXNjaXBsaW5hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Atleta/ListarAtletas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRsZXRhXExpc3RhckF0bGV0YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Disciplina/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Disciplina/ListarDisciplinas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY2lwbGluYVxMaXN0YXJEaXNjaXBsaW5hcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Evento/CreateEvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXENyZWF0ZUV2ZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Evento/FiltrarPorFecha.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXEZpbHRyYXJQb3JGZWNoYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Evento/ListarAtletasDelEvento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXExpc3RhckF0bGV0YXNEZWxFdmVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Evento/ListarEventos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXExpc3RhckV2ZW50b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Evento/Puntaje.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRvXFB1bnRhamUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Shared/_Avisos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Bdmlzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alumnoFI/Desktop/Obligatorio ver 31/Obligatorio/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hdgp7y90f2

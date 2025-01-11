@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xzYJlZs903PTP5dLD6dAt6V3r3msRcNhLYKVFGLpH+54o29Bl5XXUB2bfM7gsBd8Zo98KWowuliNvuq63wBmQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alumnoFI\\Desktop\\Obligatorio ver 31(sin MVC)\\WebApplication1\\WebApplication1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alumnoFI\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,660 @@
+C:\Users\adril\source\repos\Compartido\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\source\repos\Compartido\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\source\repos\Compartido\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\source\repos\Compartido\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\source\repos\Compartido\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\source\repos\Compartido\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Q\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Q\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Q\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Q\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Q\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Q\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Q\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Q\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.csproj.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\refint\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Compartido\obj\Debug\net8.0\ref\Compartido.dll

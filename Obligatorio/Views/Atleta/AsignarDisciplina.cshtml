@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Compartido.DTOS.Disciplina.DisciplinaDatosCompletos>
+
+
+
+<h1>Asignar disciplina al atleta con id : @ViewBag.IdAtleta</h1>
+<partial name="_Avisos" />
+<div class="alert alert-info">@ViewBag.msg</div>
+<hr />
+<form method="post">
+    <input type="hidden" value="@ViewBag.IdAtleta" name="IdAtleta" />
+    <select name="idV">
+        @foreach (Compartido.DTOS.Disciplina.DisciplinaDatosCompletos d in ViewBag.DisciplinasSelect)
+        {
+            <option value="@d.Id">@d.Nombre</option>
+        }
+    </select>
+    <input type="submit" value="Asignar" class="btn btn-primary" />
+</form>
+
+
+

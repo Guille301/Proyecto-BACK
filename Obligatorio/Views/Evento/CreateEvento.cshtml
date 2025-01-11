@@ -1,0 +1,80 @@
+﻿@model Compartido.DTOS.Evento.EventoAltaDto
+
+@{
+    ViewData["Title"] = "CreateEvento";
+}
+
+<h1>CreateEvento</h1>
+<partial name="_Avisos" />
+
+<h4>EventoAltaDto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateEvento">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+           
+
+            @if (Model == null)
+            {
+                <div class="alert alert-danger">@ViewBag.msg</div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label>Atletas</label>
+                    @foreach (var atleta in Model.atletas)
+                    {
+                        <div>
+                            <input type="checkbox" name="ListaSeleccionAtletas" value="@atleta.id" id="atleta@atleta.id" />
+                            <label for="atleta@atleta.id">@atleta.Nombre</label>
+                        </div>
+                    }
+                </div>
+            
+
+            
+           
+                <div class="form-group">
+                    <label>Disciplina</label>
+                    <select asp-for="DisciplinaId">
+                        @foreach (var disciplina in Model.disciplinas)
+                        {
+                            <option value="@disciplina.Id">@disciplina.Nombre</option>
+                        }
+                    </select>
+                </div>
+            }
+
+            <div class="form-group">
+                <label asp-for="NombreDePrueba" class="control-label"></label>
+                <input asp-for="NombreDePrueba" class="form-control" />
+                <span asp-validation-for="NombreDePrueba" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaDeInicio" class="control-label"></label>
+                <input asp-for="FechaDeInicio" class="form-control" />
+                <span asp-validation-for="FechaDeInicio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaDeFin" class="control-label"></label>
+                <input asp-for="FechaDeFin" class="form-control" />
+                <span asp-validation-for="FechaDeFin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

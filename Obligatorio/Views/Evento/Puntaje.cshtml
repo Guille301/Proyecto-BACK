@@ -1,0 +1,17 @@
+﻿@model Compartido.DTOS.PuntajeAtleta.ListarAtletasDeLosEventosDto
+
+<h1>Actualizar puntaje de @Model.Nombre</h1>
+<partial name="_Avisos" />
+<div class="alert alert-danger">@ViewBag.msg</div>
+
+<form asp-action="Puntaje" method="post">
+    <input type="hidden" asp-for="idAtleta" />
+    <input type="hidden" asp-for="idEvento" />
+
+    <div class="form-group">
+        <label for="PuntosAtletas">Puntos Actuales: @Model.PuntosAtletas</label>
+        <input type="number" asp-for="PuntosAtletas" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Actualizar Puntaje</button>
+</form>

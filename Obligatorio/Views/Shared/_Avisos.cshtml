@@ -1,0 +1,16 @@
+﻿
+<div>
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-info">@ViewBag.Mensaje</div>
+    }
+    @if (ViewBag.Advertencia != null)
+    {
+        <div class="alert alert-warning">@ViewBag.Advertencia</div>
+    }
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+</div>
+

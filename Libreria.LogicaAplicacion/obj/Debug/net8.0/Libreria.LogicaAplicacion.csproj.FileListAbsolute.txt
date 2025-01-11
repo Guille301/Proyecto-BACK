@@ -1,0 +1,822 @@
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\source\repos\Compartido\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorio\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorioOriginal\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\NuevoObligatorioLogin\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio V12\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio V14\NuevoObligatorioLogin\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Q\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Q ver 18\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 19\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 20\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 21\Obligatorio ver 20\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 22 uso\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 25(con cosas faltantes)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 26 (apifuncional)\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio ver 27\Obligatorio ver 24\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio ver 28\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio ver 29\Obligatorio ver 28\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI.FACULTADES\Downloads\Obligatorio ver 30\Obligatorio ver 30.5(edit corregido)\Obligatorio ver 30\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio ver 31(sin MVC)\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Downloads\Obligatorio Parte 2 ver 2\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 3\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 5\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 6\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 8\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 9.5(loginasync)\Obligatorio Parte 2 ver 9\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 10\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\alumnoFI\Desktop\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 12\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 14\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\tomas\Downloads\Obligatorio Parte 2 ver 15\Obligatorio Parte 2 ver 15\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+D:\Obligatorio Parte 2 ver 16\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 17\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.deps.json
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Compartido.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.Acceso.Datos.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\bin\Debug\net8.0\Libreria.LogicaNegocio.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.DFC03C8F.Up2Date
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\refint\Libreria.LogicaAplicacion.dll
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\Libreria.LogicaAplicacion.pdb
+C:\Users\adril\OneDrive\Desktop\Obligatorio Parte 2 ver 18\Obligatorio BACK\Libreria.LogicaAplicacion\obj\Debug\net8.0\ref\Libreria.LogicaAplicacion.dll
